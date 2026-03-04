@@ -1,0 +1,132 @@
+@import "../shared/school-app-theme.css";
+
+.vergleich-layout {
+  display: grid;
+  gap: 12px;
+}
+
+.vergleich-top {
+  display: grid;
+  gap: 10px;
+}
+
+.vergleich-top h2 {
+  margin: 0;
+}
+
+.number-strip {
+  display: grid;
+  grid-template-columns: repeat(20, minmax(0, 1fr));
+  gap: 4px;
+  padding: 8px;
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  background: #fffefb;
+}
+
+.number-pill {
+  min-height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  border: 1px solid #d8cdba;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 0.86rem;
+}
+
+.number-pill.guess-small {
+  background: #dff1ff;
+  border-color: #8ec5ee;
+  color: #1f4f73;
+}
+
+.number-pill.guess-large {
+  background: #ffe5e5;
+  border-color: #e7a3a3;
+  color: #7a2e2e;
+}
+
+.task-panel {
+  display: grid;
+  gap: 10px;
+}
+
+.characters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.character-card {
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fffdfa 0%, #fff6eb 100%);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+  align-items: center;
+}
+
+.character-emoji {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  border: 2px solid #d7cab7;
+  background: #fffefb;
+}
+
+.character-text p {
+  margin: 0;
+}
+
+.speech-box {
+  border: 2px solid #cad7cc;
+  border-radius: 14px;
+  background: #f4fbf8;
+  padding: 10px 12px;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.guess-grid {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.guess-grid button {
+  min-height: 52px;
+  border-radius: 12px;
+  border: 2px solid #d8cdba;
+  background: #fffefb;
+  color: var(--text);
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+
+.guess-grid button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.guess-grid button:disabled {
+  opacity: 0.65;
+}
+
+@media (max-width: 900px) {
+  .number-strip {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .characters {
+    grid-template-columns: 1fr;
+  }
+
+  .guess-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}

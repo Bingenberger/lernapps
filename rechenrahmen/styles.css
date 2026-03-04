@@ -1,0 +1,204 @@
+@import "../shared/school-app-theme.css";
+
+:root {
+  --blue: #0055aa;
+  --red: #ff4433;
+  --rod-color: #264653;
+  --bead-size: 40px;
+  --rod-width: 640px;
+  --frame-brown: #264653;
+}
+
+.rechenrahmen-layout {
+  display: grid;
+  place-items: center;
+}
+
+.rechenrahmen-panel {
+  width: 100%;
+  max-width: 920px;
+  user-select: none;
+  touch-action: none;
+}
+
+.menu {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.menu button {
+  min-height: 44px;
+  border-radius: 8px;
+}
+
+.menu button.active {
+  background: linear-gradient(180deg, #2a9d8f 0%, #264653 100%);
+  color: #fff;
+  border-color: #264653;
+  box-shadow: 0 8px 18px rgba(38, 70, 83, 0.25);
+}
+
+.frame {
+  background: linear-gradient(180deg, #fffdfa 0%, #fff6ea 100%);
+  padding: 50px 30px;
+  border: 12px solid var(--frame-brown);
+  border-radius: 15px;
+  box-shadow: 0 15px 35px rgba(38, 70, 83, 0.22);
+}
+
+.frame.blitz-obscured .rod-container,
+.frame.blitz-obscured .bead {
+  filter: blur(20px) saturate(0.55) contrast(0.82) brightness(0.88);
+}
+
+.rod-container {
+  position: relative;
+  width: var(--rod-width);
+  height: 60px;
+  margin: 10px 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 48%,
+    var(--rod-color) 48%,
+    var(--rod-color) 52%,
+    transparent 52%
+  );
+}
+
+.locked {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.bead {
+  width: var(--bead-size);
+  height: var(--bead-size);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  cursor: grab;
+  box-shadow: inset -4px -4px 8px rgba(0, 0, 0, 0.4), 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bead.snapping {
+  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.display-area {
+  margin-top: 30px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-box {
+  font-size: 2.5rem;
+  background: linear-gradient(180deg, #2a9d8f 0%, #264653 100%);
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  min-width: 80px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.counter-box.hidden-val span {
+  display: none;
+}
+
+.counter-box.hidden-val::after {
+  content: "?";
+}
+
+.target-box {
+  font-size: 1.5rem;
+  color: var(--text);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.success-msg {
+  color: #2a9d8f;
+  font-weight: bold;
+  margin-top: 10px;
+  min-height: 24px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.blitz-speed {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.blitz-speed button {
+  min-height: 38px;
+  min-width: 70px;
+  border-radius: 999px;
+  background: #fffefb;
+  color: var(--text);
+  border: 2px solid var(--line);
+  padding: 6px 12px;
+}
+
+.blitz-speed button.active {
+  color: #fff;
+  border-color: #264653;
+  background: linear-gradient(180deg, #2a9d8f 0%, #264653 100%);
+}
+
+.blitz-grid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+  width: min(100%, 720px);
+}
+
+.blitz-grid button {
+  min-height: 46px;
+  border-radius: 10px;
+  background: #fffefb;
+  color: var(--text);
+  border: 2px solid var(--line);
+  font-weight: 700;
+}
+
+.blitz-grid button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.blitz-grid button:disabled {
+  opacity: 0.65;
+}
+
+@media (max-width: 760px) {
+  .frame {
+    padding: 20px 12px;
+    border-width: 8px;
+    overflow-x: auto;
+  }
+
+  .blitz-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}

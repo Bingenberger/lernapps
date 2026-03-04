@@ -1,0 +1,329 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("./fonts/Quicksand-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./fonts/Quicksand-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./fonts/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./fonts/Quicksand-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --brand-900: #264653;
+  --brand-700: #2a9d8f;
+  --brand-500: #e9c46a;
+  --brand-400: #f4a261;
+  --brand-300: #e76f51;
+  --bg-top: #f8f2e5;
+  --bg-mid: #fffaf2;
+  --panel: #fffdfa;
+  --text: #264653;
+  --muted: #4e6872;
+  --line: #d9cfbe;
+  --accent: var(--brand-700);
+  --accent-dark: #1f7f74;
+  --accent-soft: #e8f6f3;
+  --accent-shadow: rgba(42, 157, 143, 0.28);
+  --warn: var(--brand-400);
+  --ok: var(--brand-700);
+  --danger: var(--brand-300);
+  --shadow: 0 14px 36px rgba(38, 70, 83, 0.14);
+  --radius-xl: 20px;
+  --radius-lg: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  color: var(--text);
+  font-family: "Quicksand", "Segoe UI", "Trebuchet MS", sans-serif;
+  background:
+    radial-gradient(circle at 90% 8%, rgba(244, 162, 97, 0.2) 0, transparent 34%),
+    radial-gradient(circle at 10% 92%, rgba(42, 157, 143, 0.16) 0, transparent 30%),
+    linear-gradient(180deg, var(--bg-top) 0%, var(--bg-mid) 52%, #fffdfa 100%);
+}
+
+#app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 12px 24px;
+}
+
+.app-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+}
+
+.app-header p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.panel {
+  background: linear-gradient(180deg, #fffdfa 0%, #ffffff 100%);
+  border: 2px solid var(--line);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow);
+  padding: 16px;
+}
+
+.panel h2,
+.panel h3 {
+  margin: 0 0 10px;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-weight: 700;
+}
+
+select,
+button {
+  font: inherit;
+}
+
+select,
+button {
+  min-height: 46px;
+  border-radius: 12px;
+  border: 2px solid var(--line);
+  padding: 8px 12px;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 800;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background-color 0.12s ease;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.primary {
+  color: #fff;
+  background: linear-gradient(180deg, var(--accent) 0%, var(--accent-dark) 100%);
+  border-color: var(--accent-dark);
+  box-shadow: 0 6px 16px var(--accent-shadow);
+}
+
+.secondary {
+  color: var(--text);
+  background: #fffdf8;
+}
+
+.inline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.header-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+a.link-btn {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  border-radius: 12px;
+  padding: 8px 12px;
+  border: 2px solid var(--line);
+  font-weight: 800;
+}
+
+a.link-btn.primary {
+  color: #fff;
+  background: linear-gradient(180deg, var(--accent) 0%, var(--accent-dark) 100%);
+  border-color: var(--accent-dark);
+  box-shadow: 0 6px 16px var(--accent-shadow);
+}
+
+a.link-btn.secondary {
+  color: var(--text);
+  background: #fffdf8;
+}
+
+.choice-group {
+  display: grid;
+  gap: 8px;
+}
+
+.choice-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px;
+}
+
+.choice-btn {
+  width: 100%;
+  min-height: 42px;
+  padding: 8px 12px;
+  background: #fffefb;
+  color: var(--text);
+  border: 2px solid var(--line);
+  font-weight: 700;
+  box-shadow: 0 1px 0 rgba(38, 70, 83, 0.08);
+}
+
+.choice-btn.active {
+  color: #fff;
+  border-color: var(--accent-dark);
+  background: linear-gradient(180deg, var(--accent) 0%, var(--accent-dark) 100%);
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  border-radius: 999px;
+  border: 2px solid var(--line);
+  background: #fffefb;
+  padding: 6px 12px;
+  font-weight: 700;
+}
+
+.progress-track {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 5px;
+  width: 100%;
+}
+
+.progress-segment {
+  height: 10px;
+  border-radius: 999px;
+  background: #e6ddd1;
+}
+
+.progress-segment.active {
+  background: var(--brand-400);
+}
+
+.progress-segment.done {
+  background: linear-gradient(90deg, var(--brand-700) 0%, var(--brand-900) 100%);
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.status-box {
+  border-radius: 12px;
+  padding: 10px 12px;
+  border: 2px solid #c8e6df;
+  background: linear-gradient(180deg, #f6fffc 0%, var(--accent-soft) 100%);
+}
+
+.status-box strong {
+  color: var(--ok);
+}
+
+.feedback-overlay {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  z-index: 40;
+}
+
+.feedback-overlay.hidden {
+  display: none;
+}
+
+.feedback-badge {
+  width: 96px;
+  height: 96px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 2rem;
+  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.2);
+  animation: feedback-pop 220ms ease;
+}
+
+.feedback-badge.success {
+  background: linear-gradient(180deg, var(--brand-700) 0%, var(--brand-900) 100%);
+}
+
+.feedback-badge.error {
+  background: linear-gradient(180deg, #f08b74 0%, var(--danger) 100%);
+}
+
+@media (max-width: 800px) {
+  .app-header {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+@keyframes feedback-pop {
+  from {
+    transform: scale(0.75);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

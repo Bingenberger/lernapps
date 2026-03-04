@@ -1,0 +1,67 @@
+export const portalApps = [
+  {
+    id: "mathe",
+    title: "Schlaufuchs Mathe",
+    subtitle: "Zahlen bis 10 · Zehnerfeld · Lückenaufgaben",
+    description:
+      "Hier üben Kinder Zahlenverständnis und Kopfrechnen mit klaren Aufgaben und direkter Rückmeldung.",
+    emoji: "🦊",
+    themeClass: "mathe-card",
+    tags: ["Mathe", "Klasse 1", "Üben"],
+    subject: "Mathe",
+    grades: ["1"],
+    links: [{ label: "App starten", href: "./mathe/index.html", variant: "primary" }],
+  },
+  {
+    id: "kaufladen",
+    title: "Kaufladen",
+    subtitle: "Geld rechnen · passend zahlen · Rückgeld",
+    description:
+      "Ideal für den Unterricht zu Geld: Preise lesen, passend bezahlen und Rückgeld berechnen.",
+    emoji: "🛒",
+    themeClass: "kauf-card",
+    tags: ["Mathe", "Sachunterricht", "Geld"],
+    subject: "Sachunterricht",
+    grades: ["1", "2", "3", "4"],
+    links: [{ label: "App starten", href: "./kaufladen/index.html", variant: "primary" }],
+  },
+  {
+    id: "rechenrahmen",
+    title: "Rechenrahmen",
+    subtitle: "Freies Rechnen · Zahl verstecken · Zahl einstellen",
+    description:
+      "Der Rechenrahmen unterstützt beim Verstehen von Mengen, Zerlegungen und Rechenwegen im Zahlenraum bis 20.",
+    emoji: "🧮",
+    themeClass: "rechnen-card",
+    tags: ["Mathe", "Mengen", "Zahlenraum 20"],
+    subject: "Mathe",
+    grades: ["1"],
+    links: [{ label: "App starten", href: "./rechenrahmen/index.html", variant: "primary" }],
+  },
+  {
+    id: "kleiner-groesser",
+    title: "Mister X",
+    subtitle: "Zahl erraten · kleiner/größer Hinweise nutzen",
+    description:
+      "Das Krokodil denkt sich eine Zahl zwischen 1 und 20. Kinder raten und nutzen die Hinweise „kleiner“ oder „größer“, bis die richtige Zahl gefunden ist.",
+    emoji: "↕️",
+    themeClass: "vergleich-card",
+    tags: ["Mathe", "Vergleichen", "Zahlenraum 20"],
+    subject: "Mathe",
+    grades: ["1", "2"],
+    links: [{ label: "App starten", href: "./kleiner-groesser/index.html", variant: "primary" }],
+  },
+  {
+    id: "blitzblick",
+    title: "Blitzblick",
+    subtitle: "Kurz sehen · Zahl erkennen · schnell antworten",
+    description:
+      "Trainiert das schnelle Erfassen von Zahldarstellungen mit kurzen Einblendungen und direktem Feedback.",
+    emoji: "⚡",
+    themeClass: "blitz-card",
+    tags: ["Mathe", "Zahlverständnis", "Blitzblick"],
+    subject: "Mathe",
+    grades: ["1", "2"],
+    links: [{ label: "App starten", href: "./blitzblick/index.html", variant: "primary" }],
+  },
+];

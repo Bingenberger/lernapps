@@ -1,0 +1,174 @@
+@import "./shared/school-app-theme.css";
+
+#app {
+  max-width: 1200px;
+}
+
+.portal-layout {
+  display: grid;
+  gap: 14px;
+}
+
+.hero-panel {
+  display: grid;
+  gap: 12px;
+}
+
+.hero-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: center;
+}
+
+.hero-icon {
+  width: 68px;
+  height: 68px;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  background: linear-gradient(180deg, var(--brand-500) 0%, var(--brand-400) 100%);
+  border: 2px solid var(--brand-400);
+}
+
+.hero-panel h2 {
+  margin: 0 0 4px;
+}
+
+.hero-tags .pill {
+  background: #fff8ee;
+}
+
+.filter-panel {
+  display: grid;
+  gap: 10px;
+}
+
+.filter-head h2 {
+  margin: 0 0 2px;
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  align-items: end;
+}
+
+.filter-actions {
+  display: grid;
+}
+
+.filter-actions button {
+  width: 100%;
+}
+
+.apps-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.empty-panel {
+  grid-column: 1 / -1;
+}
+
+.app-card {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.app-card-top {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.app-card-top h2 {
+  margin: 0 0 2px;
+}
+
+.app-emoji {
+  width: 58px;
+  height: 58px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  font-size: 1.9rem;
+  border: 2px solid var(--line);
+  background: #fffefb;
+}
+
+.mathe-card {
+  border-color: #b7ddd7;
+  background: linear-gradient(180deg, #fffdfa 0%, #f3fbf9 100%);
+}
+
+.mathe-card .app-emoji {
+  background: #fdeed8;
+  border-color: var(--brand-400);
+}
+
+.kauf-card {
+  border-color: #b7ddd7;
+  background: linear-gradient(180deg, #fffdfa 0%, #edfaf7 100%);
+}
+
+.kauf-card .app-emoji {
+  background: #dff5ef;
+  border-color: var(--brand-700);
+}
+
+.rechnen-card {
+  border-color: #e8ccb5;
+  background: linear-gradient(180deg, #fffdfa 0%, #fff5eb 100%);
+}
+
+.rechnen-card .app-emoji {
+  background: #fde8df;
+  border-color: var(--brand-300);
+}
+
+.vergleich-card {
+  border-color: #d7c6af;
+  background: linear-gradient(180deg, #fffdfa 0%, #fff4e7 100%);
+}
+
+.vergleich-card .app-emoji {
+  background: #f4f9f7;
+  border-color: var(--brand-700);
+}
+
+.blitz-card {
+  border-color: #b6d8d3;
+  background: linear-gradient(180deg, #fffdfa 0%, #eef9f6 100%);
+}
+
+.blitz-card .app-emoji {
+  background: #eef8f6;
+  border-color: var(--brand-900);
+}
+
+.app-desc {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.app-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 900px) {
+  .filter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .apps-grid {
+    grid-template-columns: 1fr;
+  }
+}
