@@ -152,6 +152,16 @@
   border-color: var(--brand-900);
 }
 
+.anlaut-card {
+  border-color: #c9d9d6;
+  background: linear-gradient(180deg, #fffdfa 0%, #f2fbf8 100%);
+}
+
+.anlaut-card .app-emoji {
+  background: #fff3de;
+  border-color: var(--brand-500);
+}
+
 .app-desc {
   margin: 0;
   line-height: 1.4;

@@ -64,4 +64,17 @@ export const portalApps = [
     grades: ["1", "2"],
     links: [{ label: "App starten", href: "./blitzblick/index.html", variant: "primary" }],
   },
+  {
+    id: "anlaute",
+    title: "Anlaute",
+    subtitle: "Bild sehen · Laut erkennen · Buchstaben tippen",
+    description:
+      "Kinder sehen ein Bild und wählen den passenden Anlaut aus mehreren Buchstaben und Lauten rund um das Bild aus.",
+    emoji: "🔤",
+    themeClass: "anlaut-card",
+    tags: ["Deutsch", "Lesen", "Anlaute"],
+    subject: "Deutsch",
+    grades: ["1"],
+    links: [{ label: "App starten", href: "./anlaute/index.html", variant: "primary" }],
+  },
 ];
