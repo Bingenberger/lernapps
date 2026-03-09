@@ -162,6 +162,16 @@
   border-color: var(--brand-500);
 }
 
+.monster-card {
+  border-color: #dcc6b0;
+  background: linear-gradient(180deg, #fffdfa 0%, #fff3e9 100%);
+}
+
+.monster-card .app-emoji {
+  background: #eaf7f3;
+  border-color: var(--brand-700);
+}
+
 .app-desc {
   margin: 0;
   line-height: 1.4;

@@ -77,4 +77,17 @@ export const portalApps = [
     grades: ["1"],
     links: [{ label: "App starten", href: "./anlaute/index.html", variant: "primary" }],
   },
+  {
+    id: "monsterlesen",
+    title: "Monsterlesen",
+    subtitle: "Namen hören · Silben ordnen · Monster lesen",
+    description:
+      "Kinder hören Monsternamen und setzen sie aus passenden Silbenbausteinen in der richtigen Reihenfolge zusammen.",
+    emoji: "👾",
+    themeClass: "monster-card",
+    tags: ["Deutsch", "Silben", "Lesen"],
+    subject: "Deutsch",
+    grades: ["1", "2"],
+    links: [{ label: "App starten", href: "./monsterlesen/index.html", variant: "primary" }],
+  },
 ];
