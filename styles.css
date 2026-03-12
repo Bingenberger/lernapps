@@ -172,6 +172,16 @@
   border-color: var(--brand-700);
 }
 
+.spiegel-card {
+  border-color: #c8d4e4;
+  background: linear-gradient(180deg, #fffdfa 0%, #f1f7ff 100%);
+}
+
+.spiegel-card .app-emoji {
+  background: #eef6ff;
+  border-color: #6aa6df;
+}
+
 .app-desc {
   margin: 0;
   line-height: 1.4;

@@ -90,4 +90,17 @@ export const portalApps = [
     grades: ["1", "2"],
     links: [{ label: "App starten", href: "./monsterlesen/index.html", variant: "primary" }],
   },
+  {
+    id: "spiegel",
+    title: "Spiegeln",
+    subtitle: "Figuren spiegeln · Punkte verbinden · Achsensymmetrie",
+    description:
+      "Kinder spiegeln eine Figur an einer blauen Spiegelachse und verbinden dazu die passenden Punkte im rechten Raster.",
+    emoji: "🪞",
+    themeClass: "spiegel-card",
+    tags: ["Mathe", "Geometrie", "Spiegeln"],
+    subject: "Mathe",
+    grades: ["1", "2", "3"],
+    links: [{ label: "App starten", href: "./spiegel/index.html", variant: "primary" }],
+  },
 ];
