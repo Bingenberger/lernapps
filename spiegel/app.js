@@ -1,7 +1,10 @@
-const LEVELS = {
+const FIGURES_PER_LEVEL = 50;
+
+const LEVEL_SPECS = {
   3: {
     label: "3x3-Raster",
     size: 3,
+    seed: 303,
     figures: [
       { id: "3-a", points: [[0, 0], [0, 2], [1, 1], [2, 2]] },
       { id: "3-b", points: [[0, 1], [1, 0], [2, 1], [1, 2]] },
@@ -13,11 +16,17 @@ const LEVELS = {
       { id: "3-h", points: [[0, 1], [0, 2], [2, 2], [2, 1]], closed: true },
       { id: "3-i", points: [[0, 2], [1, 2], [2, 1], [2, 0]] },
       { id: "3-j", points: [[0, 0], [1, 1], [0, 2], [2, 2]], closed: true },
+      { id: "3-k", points: [[0, 0], [1, 0], [2, 1], [2, 2]] },
+      { id: "3-l", points: [[0, 1], [1, 1], [2, 0], [2, 2]] },
+      { id: "3-m", points: [[0, 2], [0, 0], [1, 0], [2, 1]] },
+      { id: "3-n", points: [[0, 0], [2, 0], [2, 2], [1, 1]], closed: true },
+      { id: "3-o", points: [[0, 2], [1, 1], [2, 2], [2, 0]] },
     ],
   },
   4: {
     label: "4x4-Raster",
     size: 4,
+    seed: 404,
     figures: [
       { id: "4-a", points: [[0, 0], [1, 1], [1, 3], [3, 2]] },
       { id: "4-b", points: [[0, 3], [1, 2], [2, 2], [3, 0]] },
@@ -29,11 +38,17 @@ const LEVELS = {
       { id: "4-h", points: [[0, 1], [1, 0], [2, 1], [2, 3], [0, 3]], closed: true },
       { id: "4-i", points: [[0, 0], [0, 2], [1, 3], [3, 3]] },
       { id: "4-j", points: [[0, 3], [1, 2], [1, 1], [3, 1], [3, 3]], closed: true },
+      { id: "4-k", points: [[0, 0], [1, 1], [2, 1], [3, 3]] },
+      { id: "4-l", points: [[0, 2], [1, 0], [2, 0], [3, 2], [3, 3]] },
+      { id: "4-m", points: [[0, 3], [0, 0], [2, 0], [3, 1], [3, 3]], closed: true },
+      { id: "4-n", points: [[0, 1], [1, 2], [2, 1], [3, 2]] },
+      { id: "4-o", points: [[0, 0], [1, 0], [1, 2], [3, 2], [3, 3]] },
     ],
   },
   5: {
     label: "5x5-Raster",
     size: 5,
+    seed: 505,
     figures: [
       { id: "5-a", points: [[0, 0], [1, 1], [1, 3], [3, 4], [4, 2]] },
       { id: "5-b", points: [[0, 4], [1, 2], [2, 2], [3, 0], [4, 1]] },
@@ -45,15 +60,31 @@ const LEVELS = {
       { id: "5-h", points: [[0, 0], [1, 2], [2, 1], [3, 3], [4, 2]] },
       { id: "5-i", points: [[0, 4], [1, 3], [2, 4], [3, 2], [4, 3]] },
       { id: "5-j", points: [[0, 4], [0, 1], [2, 1], [3, 0], [4, 1], [4, 4]], closed: true },
+      { id: "5-k", points: [[0, 0], [1, 0], [2, 2], [3, 2], [4, 4]] },
+      { id: "5-l", points: [[0, 4], [1, 4], [2, 2], [3, 1], [4, 1]] },
+      { id: "5-m", points: [[0, 2], [1, 0], [3, 0], [4, 2], [4, 4], [0, 4]], closed: true },
+      { id: "5-n", points: [[0, 1], [1, 2], [2, 1], [3, 2], [4, 1]] },
+      { id: "5-o", points: [[0, 4], [1, 3], [1, 1], [3, 1], [3, 4], [4, 3]], closed: true },
     ],
   },
 };
+
+const LEVELS = Object.fromEntries(
+  Object.entries(LEVEL_SPECS).map(([key, config]) => [
+    key,
+    {
+      ...config,
+      figures: generateFigurePool(config.size, config.figures, FIGURES_PER_LEVEL, config.seed),
+    },
+  ]),
+);
 
 const TASKS_PER_GAME = 10;
 
 const state = {
   level: 3,
   roundFigures: [],
+  lastRoundFigureIds: [],
   roundIndex: 0,
   outcomes: [],
   currentFigure: null,
@@ -80,6 +111,186 @@ function shuffle(list) {
     [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
   }
   return copy;
+}
+
+function createSeededRandom(seed) {
+  let value = seed >>> 0;
+  return () => {
+    value += 0x6d2b79f5;
+    let step = value;
+    step = Math.imul(step ^ (step >>> 15), step | 1);
+    step ^= step + Math.imul(step ^ (step >>> 7), step | 61);
+    return ((step ^ (step >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function pointsBySize(size) {
+  const points = [];
+  for (let y = 0; y < size; y += 1) {
+    for (let x = 0; x < size; x += 1) {
+      points.push([x, y]);
+    }
+  }
+  return points;
+}
+
+function neighborPoints(size, [x, y]) {
+  const points = [];
+  for (let nextY = 0; nextY < size; nextY += 1) {
+    for (let nextX = 0; nextX < size; nextX += 1) {
+      if (nextX === x && nextY === y) {
+        continue;
+      }
+      if (Math.max(Math.abs(nextX - x), Math.abs(nextY - y)) === 1) {
+        points.push([nextX, nextY]);
+      }
+    }
+  }
+  return points;
+}
+
+function figureSignature(figure) {
+  const segments = [];
+  for (let index = 1; index < figure.points.length; index += 1) {
+    segments.push([figure.points[index - 1], figure.points[index]]);
+  }
+  if (figure.closed && figure.points.length >= 3) {
+    segments.push([figure.points[figure.points.length - 1], figure.points[0]]);
+  }
+  const ids = segments.map(segmentId).sort();
+  return `${figure.closed ? "c" : "o"}:${ids.join(",")}`;
+}
+
+function isUsableFigure(figure) {
+  if (figure.points.length < 3) {
+    return false;
+  }
+
+  const xValues = new Set(figure.points.map(([x]) => x));
+  const yValues = new Set(figure.points.map(([, y]) => y));
+  if (xValues.size < 2 || yValues.size < 2) {
+    return false;
+  }
+
+  const segments = [];
+  for (let index = 1; index < figure.points.length; index += 1) {
+    segments.push([figure.points[index - 1], figure.points[index]]);
+  }
+
+  if (figure.closed) {
+    if (figure.points.length < 3) {
+      return false;
+    }
+    const start = figure.points[0];
+    const end = figure.points[figure.points.length - 1];
+    const closes = neighborPoints(
+      Math.max(
+        ...figure.points.map(([x]) => x),
+        ...figure.points.map(([, y]) => y),
+      ) + 1,
+      end,
+    ).some((point) => pointId(point) === pointId(start));
+    if (!closes) {
+      return false;
+    }
+    segments.push([end, start]);
+  }
+
+  const segmentIds = segments.map(segmentId);
+  return new Set(segmentIds).size === segmentIds.length;
+}
+
+function buildRandomFigure(size, random) {
+  const allPoints = pointsBySize(size);
+  const closed = random() < 0.35;
+  const targetLength = closed
+    ? Math.min(size + 1, 3 + Math.floor(random() * 3))
+    : Math.min(size + 2, 4 + Math.floor(random() * 3));
+  const startPoint = allPoints[Math.floor(random() * allPoints.length)];
+  const points = [startPoint];
+  const used = new Set([pointId(startPoint)]);
+  let guard = 0;
+
+  while (points.length < targetLength && guard < 100) {
+    guard += 1;
+    const current = points[points.length - 1];
+    let options = neighborPoints(size, current).filter((point) => !used.has(pointId(point)));
+
+    if (closed && points.length >= targetLength - 1) {
+      const start = points[0];
+      options = options.filter((point) =>
+        neighborPoints(size, point).some((entry) => pointId(entry) === pointId(start)),
+      );
+    }
+
+    if (options.length === 0) {
+      break;
+    }
+
+    const nextPoint = options[Math.floor(random() * options.length)];
+    points.push(nextPoint);
+    used.add(pointId(nextPoint));
+  }
+
+  return {
+    points,
+    closed,
+  };
+}
+
+function generateFigurePool(size, presets, targetCount, seed) {
+  const figures = presets.map((figure) => ({ ...figure, points: figure.points.map((point) => [...point]) }));
+  const seen = new Set(figures.map(figureSignature));
+  const random = createSeededRandom(seed);
+  let nextId = 1;
+  let guard = 0;
+
+  while (figures.length < targetCount && guard < 200000) {
+    guard += 1;
+    const candidate = buildRandomFigure(size, random);
+    if (!isUsableFigure(candidate)) {
+      continue;
+    }
+
+    const signature = figureSignature(candidate);
+    if (seen.has(signature)) {
+      continue;
+    }
+
+    seen.add(signature);
+    figures.push({
+      id: `${size}-auto-${String(nextId).padStart(2, "0")}`,
+      points: candidate.points,
+      ...(candidate.closed ? { closed: true } : {}),
+    });
+    nextId += 1;
+  }
+
+  return figures.slice(0, targetCount);
+}
+
+function sameIdOrder(left, right) {
+  if (left.length !== right.length) {
+    return false;
+  }
+  return left.every((value, index) => value === right[index]);
+}
+
+function pickRoundFigures(level) {
+  const pool = LEVELS[level].figures;
+  let candidate = shuffle(pool).slice(0, TASKS_PER_GAME);
+  const previousIds = state.lastRoundFigureIds;
+
+  if (pool.length > 1 && previousIds.length === candidate.length) {
+    let guard = 0;
+    while (sameIdOrder(candidate.map((figure) => figure.id), previousIds) && guard < 8) {
+      candidate = shuffle(pool).slice(0, TASKS_PER_GAME);
+      guard += 1;
+    }
+  }
+
+  state.lastRoundFigureIds = candidate.map((figure) => figure.id);
+  return candidate;
 }
 
 function pointId([x, y]) {
@@ -146,7 +357,7 @@ function loadRoundFigure() {
 
 function startGame() {
   clearAutoNextTimer();
-  state.roundFigures = shuffle(LEVELS[state.level].figures).slice(0, TASKS_PER_GAME);
+  state.roundFigures = pickRoundFigures(state.level);
   state.roundIndex = 0;
   state.outcomes = Array(TASKS_PER_GAME).fill("");
   state.stats.correct = 0;
