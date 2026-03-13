@@ -21,6 +21,16 @@ const LEVEL_SPECS = {
       { id: "3-m", points: [[0, 2], [0, 0], [1, 0], [2, 1]] },
       { id: "3-n", points: [[0, 0], [2, 0], [2, 2], [1, 1]], closed: true },
       { id: "3-o", points: [[0, 2], [1, 1], [2, 2], [2, 0]] },
+      { id: "3-letter-a", points: [[0, 2], [1, 0], [2, 2], [1, 1]] },
+      { id: "3-letter-c", points: [[2, 0], [0, 0], [0, 2], [2, 2]] },
+      { id: "3-letter-l", points: [[0, 0], [0, 2], [2, 2]] },
+      { id: "3-letter-n", points: [[0, 2], [0, 0], [2, 2], [2, 0]] },
+      { id: "3-letter-u", points: [[0, 0], [0, 2], [2, 2], [2, 0]] },
+      { id: "3-letter-v", points: [[0, 0], [1, 2], [2, 0]] },
+      { id: "3-letter-z", points: [[0, 0], [2, 0], [0, 2], [2, 2]] },
+      { id: "3-digit-1", points: [[0, 1], [1, 0], [1, 2]] },
+      { id: "3-digit-2", points: [[0, 0], [2, 0], [0, 2], [2, 2]] },
+      { id: "3-digit-7", points: [[0, 0], [2, 0], [1, 2]] },
     ],
   },
   4: {
@@ -43,6 +53,17 @@ const LEVEL_SPECS = {
       { id: "4-m", points: [[0, 3], [0, 0], [2, 0], [3, 1], [3, 3]], closed: true },
       { id: "4-n", points: [[0, 1], [1, 2], [2, 1], [3, 2]] },
       { id: "4-o", points: [[0, 0], [1, 0], [1, 2], [3, 2], [3, 3]] },
+      { id: "4-letter-a", points: [[0, 3], [1, 0], [3, 3], [2, 2], [1, 2]] },
+      { id: "4-letter-c", points: [[3, 0], [0, 0], [0, 3], [3, 3]] },
+      { id: "4-letter-e", points: [[3, 0], [0, 0], [0, 3], [3, 3], [0, 2], [2, 2]] },
+      { id: "4-letter-l", points: [[0, 0], [0, 3], [3, 3]] },
+      { id: "4-letter-m", points: [[0, 3], [0, 0], [1, 1], [2, 0], [3, 3]] },
+      { id: "4-letter-n", points: [[0, 3], [0, 0], [3, 3], [3, 0]] },
+      { id: "4-letter-u", points: [[0, 0], [0, 3], [3, 3], [3, 0]] },
+      { id: "4-letter-z", points: [[0, 0], [3, 0], [0, 3], [3, 3]] },
+      { id: "4-digit-2", points: [[0, 0], [3, 0], [1, 2], [0, 3], [3, 3]] },
+      { id: "4-digit-4", points: [[3, 3], [3, 0], [0, 2], [3, 2]] },
+      { id: "4-digit-7", points: [[0, 0], [3, 0], [1, 3]] },
     ],
   },
   5: {
@@ -65,6 +86,20 @@ const LEVEL_SPECS = {
       { id: "5-m", points: [[0, 2], [1, 0], [3, 0], [4, 2], [4, 4], [0, 4]], closed: true },
       { id: "5-n", points: [[0, 1], [1, 2], [2, 1], [3, 2], [4, 1]] },
       { id: "5-o", points: [[0, 4], [1, 3], [1, 1], [3, 1], [3, 4], [4, 3]], closed: true },
+      { id: "5-letter-a", points: [[0, 4], [2, 0], [4, 4], [3, 2], [1, 2]] },
+      { id: "5-letter-b", points: [[0, 0], [0, 4], [3, 4], [4, 3], [3, 2], [0, 2], [3, 2], [4, 1], [3, 0], [0, 0]] },
+      { id: "5-letter-c", points: [[4, 0], [0, 0], [0, 4], [4, 4]] },
+      { id: "5-letter-e", points: [[4, 0], [0, 0], [0, 4], [4, 4], [0, 2], [3, 2]] },
+      { id: "5-letter-h", points: [[0, 0], [0, 4], [0, 2], [4, 2], [4, 0], [4, 4]] },
+      { id: "5-letter-m", points: [[0, 4], [0, 0], [2, 2], [4, 0], [4, 4]] },
+      { id: "5-letter-n", points: [[0, 4], [0, 0], [4, 4], [4, 0]] },
+      { id: "5-letter-u", points: [[0, 0], [0, 4], [4, 4], [4, 0]] },
+      { id: "5-letter-z", points: [[0, 0], [4, 0], [0, 4], [4, 4]] },
+      { id: "5-digit-2", points: [[0, 0], [4, 0], [2, 2], [0, 4], [4, 4]] },
+      { id: "5-digit-3", points: [[0, 0], [4, 0], [2, 2], [4, 2], [2, 2], [4, 4], [0, 4]] },
+      { id: "5-digit-4", points: [[4, 4], [4, 0], [0, 2], [4, 2]] },
+      { id: "5-digit-7", points: [[0, 0], [4, 0], [2, 4]] },
+      { id: "5-digit-8", points: [[2, 0], [0, 1], [0, 3], [2, 4], [4, 3], [4, 1], [2, 0], [2, 2], [2, 4]] },
     ],
   },
 };
@@ -103,6 +138,7 @@ const state = {
 };
 
 const root = document.getElementById("game-root");
+let audioContext = null;
 
 function shuffle(list) {
   const copy = [...list];
@@ -111,6 +147,84 @@ function shuffle(list) {
     [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
   }
   return copy;
+}
+
+function getAudioContext() {
+  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextClass) {
+    return null;
+  }
+
+  if (!audioContext) {
+    audioContext = new AudioContextClass();
+  }
+
+  if (audioContext.state === "suspended") {
+    audioContext.resume().catch(() => {});
+  }
+
+  return audioContext;
+}
+
+function playTone({ frequency = 440, duration = 0.12, type = "sine", volume = 0.05, delay = 0, endFrequency = frequency }) {
+  const context = getAudioContext();
+  if (!context) {
+    return;
+  }
+
+  const startTime = context.currentTime + delay;
+  const stopTime = startTime + duration;
+  const oscillator = context.createOscillator();
+  const gain = context.createGain();
+
+  oscillator.type = type;
+  oscillator.frequency.setValueAtTime(frequency, startTime);
+  oscillator.frequency.linearRampToValueAtTime(endFrequency, stopTime);
+
+  gain.gain.setValueAtTime(0.0001, startTime);
+  gain.gain.linearRampToValueAtTime(volume, startTime + 0.02);
+  gain.gain.exponentialRampToValueAtTime(0.0001, stopTime);
+
+  oscillator.connect(gain);
+  gain.connect(context.destination);
+  oscillator.start(startTime);
+  oscillator.stop(stopTime);
+}
+
+function playSoundEffect(kind) {
+  switch (kind) {
+    case "select":
+      playTone({ frequency: 520, endFrequency: 620, duration: 0.08, type: "triangle", volume: 0.035 });
+      break;
+    case "deselect":
+      playTone({ frequency: 460, endFrequency: 360, duration: 0.09, type: "triangle", volume: 0.03 });
+      break;
+    case "draw":
+      playTone({ frequency: 680, endFrequency: 760, duration: 0.07, type: "square", volume: 0.035 });
+      break;
+    case "clear":
+      playTone({ frequency: 380, endFrequency: 220, duration: 0.12, type: "sawtooth", volume: 0.035 });
+      break;
+    case "skip":
+      playTone({ frequency: 430, endFrequency: 300, duration: 0.1, type: "triangle", volume: 0.03 });
+      playTone({ frequency: 300, endFrequency: 240, duration: 0.12, type: "triangle", volume: 0.025, delay: 0.05 });
+      break;
+    case "wrong":
+      playTone({ frequency: 280, endFrequency: 220, duration: 0.16, type: "sawtooth", volume: 0.045 });
+      playTone({ frequency: 220, endFrequency: 180, duration: 0.2, type: "square", volume: 0.03, delay: 0.04 });
+      break;
+    case "correct":
+      playTone({ frequency: 520, endFrequency: 660, duration: 0.12, type: "triangle", volume: 0.04 });
+      playTone({ frequency: 660, endFrequency: 820, duration: 0.16, type: "triangle", volume: 0.045, delay: 0.08 });
+      break;
+    case "finish":
+      playTone({ frequency: 520, endFrequency: 640, duration: 0.12, type: "triangle", volume: 0.04 });
+      playTone({ frequency: 680, endFrequency: 840, duration: 0.16, type: "triangle", volume: 0.045, delay: 0.08 });
+      playTone({ frequency: 860, endFrequency: 980, duration: 0.22, type: "triangle", volume: 0.05, delay: 0.18 });
+      break;
+    default:
+      break;
+  }
 }
 
 function createSeededRandom(seed) {
@@ -297,19 +411,53 @@ function pointId([x, y]) {
   return `${x}:${y}`;
 }
 
+function greatestCommonDivisor(left, right) {
+  let a = Math.abs(left);
+  let b = Math.abs(right);
+
+  while (b !== 0) {
+    const rest = a % b;
+    a = b;
+    b = rest;
+  }
+
+  return a || 1;
+}
+
 function segmentId([start, end]) {
   const a = pointId(start);
   const b = pointId(end);
   return a < b ? `${a}|${b}` : `${b}|${a}`;
 }
 
+function normalizedSegmentIds(segments) {
+  const ids = [];
+
+  segments.forEach(([start, end]) => {
+    const deltaX = end[0] - start[0];
+    const deltaY = end[1] - start[1];
+    const steps = greatestCommonDivisor(deltaX, deltaY);
+    const stepX = deltaX / steps;
+    const stepY = deltaY / steps;
+
+    for (let index = 0; index < steps; index += 1) {
+      const from = [start[0] + stepX * index, start[1] + stepY * index];
+      const to = [start[0] + stepX * (index + 1), start[1] + stepY * (index + 1)];
+      ids.push(segmentId([from, to]));
+    }
+  });
+
+  return [...new Set(ids)].sort();
+}
+
 function segmentsEqual(left, right) {
-  if (left.length !== right.length) {
+  const leftIds = normalizedSegmentIds(left);
+  const rightIds = normalizedSegmentIds(right);
+
+  if (leftIds.length !== rightIds.length) {
     return false;
   }
 
-  const leftIds = [...left.map(segmentId)].sort();
-  const rightIds = [...right.map(segmentId)].sort();
   return leftIds.every((value, index) => value === rightIds[index]);
 }
 
@@ -378,6 +526,7 @@ function finishGame() {
   state.locked = true;
   state.feedback = "Die 10 Runden sind geschafft. Starte jetzt eine neue Runde.";
   state.feedbackKind = "feedback-ok";
+  playSoundEffect("finish");
   render();
 }
 
@@ -510,6 +659,7 @@ function evaluateFigure() {
     state.locked = true;
     state.feedback = "Richtig gespiegelt. Die nächste Figur kommt gleich.";
     state.feedbackKind = "feedback-ok";
+    playSoundEffect("correct");
     clearAutoNextTimer();
     state.autoNextTimer = window.setTimeout(() => {
       state.autoNextTimer = 0;
@@ -521,6 +671,7 @@ function evaluateFigure() {
     state.locked = true;
     state.feedback = "Das passt noch nicht. Lösche rechts und versuche es noch einmal.";
     state.feedbackKind = "feedback-bad";
+    playSoundEffect("wrong");
   }
 
   render();
@@ -542,6 +693,7 @@ function onPointClick(raw) {
         ? "Die Markierung ist aufgehoben. Du kannst an einem anderen Punkt weiterzeichnen."
         : "Die Markierung ist aufgehoben. Wähle einen Startpunkt.";
     state.feedbackKind = "";
+    playSoundEffect("deselect");
     render();
     return;
   }
@@ -550,6 +702,7 @@ function onPointClick(raw) {
     state.activePoint = point;
     state.feedback = "Punkt markiert. Wähle jetzt den nächsten Punkt.";
     state.feedbackKind = "";
+    playSoundEffect("select");
     render();
     return;
   }
@@ -558,6 +711,9 @@ function onPointClick(raw) {
   const alreadyExists = state.userSegments.some((entry) => segmentId(entry) === segmentId(segment));
   if (!alreadyExists) {
     state.userSegments = [...state.userSegments, segment];
+    playSoundEffect("draw");
+  } else {
+    playSoundEffect("select");
   }
 
   state.activePoint = point;
@@ -565,8 +721,9 @@ function onPointClick(raw) {
   state.feedbackKind = "";
   render();
 
-  const expectedLength = mirroredTarget().segments.length;
-  if (state.userSegments.length >= expectedLength) {
+  const expectedLength = normalizedSegmentIds(mirroredTarget().segments).length;
+  const currentLength = normalizedSegmentIds(state.userSegments).length;
+  if (currentLength >= expectedLength) {
     evaluateFigure();
   }
 }
@@ -581,6 +738,7 @@ function clearUserFigure() {
   state.locked = false;
   state.feedback = "Rechts ist wieder frei. Versuche die Spiegelung noch einmal.";
   state.feedbackKind = "";
+  playSoundEffect("clear");
   render();
 }
 
@@ -702,9 +860,11 @@ function bindEvents() {
   root.querySelector("#clear-btn")?.addEventListener("click", clearUserFigure);
   root.querySelector("#next-btn")?.addEventListener("click", () => {
     if (state.finished) {
+      playSoundEffect("select");
       startGame();
       return;
     }
+    playSoundEffect("skip");
     state.stats.wrong += 1;
     state.stats.attempts += 1;
     state.outcomes[state.roundIndex] = "wrong";
