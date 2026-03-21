@@ -166,7 +166,15 @@ function getAudioContext() {
   return audioContext;
 }
 
-function playTone({ frequency = 440, duration = 0.12, type = "sine", volume = 0.05, delay = 0, endFrequency = frequency }) {
+function playTone({
+  frequency = 440,
+  duration = 0.12,
+  type = "sine",
+  volume = 0.05,
+  delay = 0,
+  endFrequency = frequency,
+  attack = 0.008,
+}) {
   const context = getAudioContext();
   if (!context) {
     return;
@@ -182,7 +190,7 @@ function playTone({ frequency = 440, duration = 0.12, type = "sine", volume = 0.
   oscillator.frequency.linearRampToValueAtTime(endFrequency, stopTime);
 
   gain.gain.setValueAtTime(0.0001, startTime);
-  gain.gain.linearRampToValueAtTime(volume, startTime + 0.02);
+  gain.gain.linearRampToValueAtTime(volume, startTime + attack);
   gain.gain.exponentialRampToValueAtTime(0.0001, stopTime);
 
   oscillator.connect(gain);
@@ -194,33 +202,36 @@ function playTone({ frequency = 440, duration = 0.12, type = "sine", volume = 0.
 function playSoundEffect(kind) {
   switch (kind) {
     case "select":
-      playTone({ frequency: 520, endFrequency: 620, duration: 0.08, type: "triangle", volume: 0.035 });
+      playTone({ frequency: 720, endFrequency: 780, duration: 0.045, type: "square", volume: 0.045, attack: 0.004 });
       break;
     case "deselect":
-      playTone({ frequency: 460, endFrequency: 360, duration: 0.09, type: "triangle", volume: 0.03 });
+      playTone({ frequency: 520, endFrequency: 340, duration: 0.06, type: "square", volume: 0.04, attack: 0.004 });
       break;
     case "draw":
-      playTone({ frequency: 680, endFrequency: 760, duration: 0.07, type: "square", volume: 0.035 });
+      playTone({ frequency: 860, endFrequency: 980, duration: 0.05, type: "square", volume: 0.05, attack: 0.003 });
+      playTone({ frequency: 1180, endFrequency: 1260, duration: 0.035, type: "triangle", volume: 0.018, delay: 0.01, attack: 0.003 });
       break;
     case "clear":
-      playTone({ frequency: 380, endFrequency: 220, duration: 0.12, type: "sawtooth", volume: 0.035 });
+      playTone({ frequency: 420, endFrequency: 180, duration: 0.11, type: "square", volume: 0.045, attack: 0.004 });
       break;
     case "skip":
-      playTone({ frequency: 430, endFrequency: 300, duration: 0.1, type: "triangle", volume: 0.03 });
-      playTone({ frequency: 300, endFrequency: 240, duration: 0.12, type: "triangle", volume: 0.025, delay: 0.05 });
+      playTone({ frequency: 500, endFrequency: 360, duration: 0.07, type: "square", volume: 0.035, attack: 0.004 });
+      playTone({ frequency: 360, endFrequency: 260, duration: 0.09, type: "square", volume: 0.03, delay: 0.04, attack: 0.004 });
       break;
     case "wrong":
-      playTone({ frequency: 280, endFrequency: 220, duration: 0.16, type: "sawtooth", volume: 0.045 });
-      playTone({ frequency: 220, endFrequency: 180, duration: 0.2, type: "square", volume: 0.03, delay: 0.04 });
+      playTone({ frequency: 260, endFrequency: 170, duration: 0.12, type: "sawtooth", volume: 0.075, attack: 0.002 });
+      playTone({ frequency: 170, endFrequency: 110, duration: 0.2, type: "square", volume: 0.06, delay: 0.035, attack: 0.002 });
+      playTone({ frequency: 120, endFrequency: 90, duration: 0.24, type: "sawtooth", volume: 0.035, delay: 0.07, attack: 0.002 });
       break;
     case "correct":
-      playTone({ frequency: 520, endFrequency: 660, duration: 0.12, type: "triangle", volume: 0.04 });
-      playTone({ frequency: 660, endFrequency: 820, duration: 0.16, type: "triangle", volume: 0.045, delay: 0.08 });
+      playTone({ frequency: 640, endFrequency: 760, duration: 0.09, type: "triangle", volume: 0.05, attack: 0.003 });
+      playTone({ frequency: 880, endFrequency: 1120, duration: 0.14, type: "triangle", volume: 0.06, delay: 0.055, attack: 0.003 });
+      playTone({ frequency: 1180, endFrequency: 1440, duration: 0.2, type: "sine", volume: 0.045, delay: 0.11, attack: 0.003 });
       break;
     case "finish":
-      playTone({ frequency: 520, endFrequency: 640, duration: 0.12, type: "triangle", volume: 0.04 });
-      playTone({ frequency: 680, endFrequency: 840, duration: 0.16, type: "triangle", volume: 0.045, delay: 0.08 });
-      playTone({ frequency: 860, endFrequency: 980, duration: 0.22, type: "triangle", volume: 0.05, delay: 0.18 });
+      playTone({ frequency: 620, endFrequency: 700, duration: 0.08, type: "square", volume: 0.045, attack: 0.004 });
+      playTone({ frequency: 820, endFrequency: 920, duration: 0.11, type: "triangle", volume: 0.05, delay: 0.06, attack: 0.004 });
+      playTone({ frequency: 1080, endFrequency: 1280, duration: 0.16, type: "triangle", volume: 0.055, delay: 0.14, attack: 0.004 });
       break;
     default:
       break;

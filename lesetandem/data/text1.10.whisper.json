@@ -1,0 +1,280 @@
+{
+  "title": "Die Sonne",
+  "audioSrc": "audio/text1.10.mp3",
+  "words": [
+    {
+      "w": "Die",
+      "s": 0.0,
+      "e": 0.76,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Sonne",
+      "s": 0.76,
+      "e": 1.24,
+      "syllables": [
+        "Son",
+        "ne"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Die",
+      "s": 2.98,
+      "e": 2.98,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Sonne",
+      "s": 2.98,
+      "e": 2.98,
+      "syllables": [
+        "Son",
+        "ne"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 2.98,
+      "e": 3.34,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "da.",
+      "s": 3.34,
+      "e": 3.84,
+      "syllables": [
+        "da."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 4.64,
+      "e": 4.7,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 4.7,
+      "e": 5.24,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "warm.",
+      "s": 5.24,
+      "e": 5.94,
+      "syllables": [
+        "warm."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 7.16,
+      "e": 7.28,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sitzt",
+      "s": 7.28,
+      "e": 8.06,
+      "syllables": [
+        "sitzt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 8.06,
+      "e": 8.64,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Gras.",
+      "s": 8.64,
+      "e": 9.24,
+      "syllables": [
+        "Gras."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 10.18,
+      "e": 10.44,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schaut",
+      "s": 10.44,
+      "e": 11.36,
+      "syllables": [
+        "schaut"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "nach",
+      "s": 11.36,
+      "e": 12.24,
+      "syllables": [
+        "nach"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "oben.",
+      "s": 12.24,
+      "e": 12.76,
+      "syllables": [
+        "oben."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 13.92,
+      "e": 14.26,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Sonne",
+      "s": 14.26,
+      "e": 14.84,
+      "syllables": [
+        "Son",
+        "ne"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "scheint",
+      "s": 14.84,
+      "e": 15.62,
+      "syllables": [
+        "scheint"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hell.",
+      "s": 15.62,
+      "e": 16.24,
+      "syllables": [
+        "hell."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 17.92,
+      "e": 17.96,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "bleibt",
+      "s": 17.96,
+      "e": 18.7,
+      "syllables": [
+        "bleibt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sitzen.",
+      "s": 18.7,
+      "e": 19.56,
+      "syllables": [
+        "sit",
+        "zen."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 20.7,
+      "e": 21.08,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 21.08,
+      "e": 21.7,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schön.",
+      "s": 21.7,
+      "e": 22.4,
+      "syllables": [
+        "schön."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "title": "Die Schnecke",
+  "audioSrc": "audio/text1.9.mp3",
+  "words": [
+    {
+      "w": "Die",
+      "s": 0.0,
+      "e": 1.04,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Schnecke",
+      "s": 1.04,
+      "e": 2.06,
+      "syllables": [
+        "Schne",
+        "cke"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Die",
+      "s": 3.8,
+      "e": 3.8,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Schnecke",
+      "s": 3.8,
+      "e": 4.86,
+      "syllables": [
+        "Schne",
+        "cke"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 4.86,
+      "e": 5.7,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "da.",
+      "s": 5.7,
+      "e": 6.58,
+      "syllables": [
+        "da."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 7.82,
+      "e": 7.82,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 7.82,
+      "e": 8.72,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sehr",
+      "s": 8.72,
+      "e": 9.72,
+      "syllables": [
+        "sehr"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "klein.",
+      "s": 9.72,
+      "e": 10.44,
+      "syllables": [
+        "klein."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 11.58,
+      "e": 11.94,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kriecht",
+      "s": 11.94,
+      "e": 13.12,
+      "syllables": [
+        "kriecht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 13.12,
+      "e": 13.74,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Gras.",
+      "s": 13.74,
+      "e": 14.44,
+      "syllables": [
+        "Gras."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 15.7,
+      "e": 15.86,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 15.86,
+      "e": 16.9,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sehr",
+      "s": 16.9,
+      "e": 18.04,
+      "syllables": [
+        "sehr"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "langsam.",
+      "s": 18.04,
+      "e": 19.22,
+      "syllables": [
+        "lang",
+        "sam."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 20.94,
+      "e": 21.0,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schaut",
+      "s": 21.0,
+      "e": 22.08,
+      "syllables": [
+        "schaut"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "genau.",
+      "s": 22.08,
+      "e": 23.3,
+      "syllables": [
+        "ge",
+        "nau."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 25.08,
+      "e": 25.08,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "wartet",
+      "s": 25.08,
+      "e": 26.14,
+      "syllables": [
+        "war",
+        "tet"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "still.",
+      "s": 26.14,
+      "e": 27.0,
+      "syllables": [
+        "still."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 27.0,
+      "e": 28.58,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Schnecke",
+      "s": 28.58,
+      "e": 29.8,
+      "syllables": [
+        "Schne",
+        "cke"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kriecht.",
+      "s": 29.8,
+      "e": 31.16,
+      "syllables": [
+        "kriecht."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "title": "Der Regen kommt",
+  "audioSrc": "audio/text2.6.mp3",
+  "words": [
+    {
+      "w": "Der",
+      "s": 0.0,
+      "e": 0.62,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Regen",
+      "s": 0.62,
+      "e": 2.0,
+      "syllables": [
+        "Re",
+        "gen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "kommt",
+      "s": 2.0,
+      "e": 2.66,
+      "syllables": [
+        "kommt"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Der",
+      "s": 3.94,
+      "e": 3.94,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Himmel",
+      "s": 3.94,
+      "e": 4.5,
+      "syllables": [
+        "Him",
+        "mel"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 4.5,
+      "e": 5.54,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "grau.",
+      "s": 5.54,
+      "e": 6.18,
+      "syllables": [
+        "grau."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 7.96,
+      "e": 8.02,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "geht",
+      "s": 8.02,
+      "e": 8.84,
+      "syllables": [
+        "geht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "nach",
+      "s": 8.84,
+      "e": 9.44,
+      "syllables": [
+        "nach"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Haus.",
+      "s": 9.44,
+      "e": 10.02,
+      "syllables": [
+        "Haus."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 11.28,
+      "e": 11.7,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fällt",
+      "s": 11.7,
+      "e": 12.26,
+      "syllables": [
+        "fällt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "der",
+      "s": 12.26,
+      "e": 12.88,
+      "syllables": [
+        "der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Regen.",
+      "s": 12.88,
+      "e": 13.64,
+      "syllables": [
+        "Re",
+        "gen."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 14.7,
+      "e": 14.92,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Tropfen",
+      "s": 14.92,
+      "e": 15.68,
+      "syllables": [
+        "Trop",
+        "fen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sind",
+      "s": 15.68,
+      "e": 16.76,
+      "syllables": [
+        "sind"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kalt.",
+      "s": 16.76,
+      "e": 17.32,
+      "syllables": [
+        "kalt."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 18.98,
+      "e": 19.22,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 19.22,
+      "e": 19.96,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sehr",
+      "s": 19.96,
+      "e": 20.86,
+      "syllables": [
+        "sehr"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schnell.",
+      "s": 20.86,
+      "e": 21.16,
+      "syllables": [
+        "schnell."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 22.58,
+      "e": 22.7,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "wird",
+      "s": 22.7,
+      "e": 23.22,
+      "syllables": [
+        "wird"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 23.22,
+      "e": 23.84,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "wenig",
+      "s": 23.84,
+      "e": 24.46,
+      "syllables": [
+        "we",
+        "nig"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "nass.",
+      "s": 24.46,
+      "e": 25.04,
+      "syllables": [
+        "nass."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 26.16,
+      "e": 26.54,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 26.54,
+      "e": 27.12,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sie",
+      "s": 27.12,
+      "e": 27.62,
+      "syllables": [
+        "sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "zu",
+      "s": 27.62,
+      "e": 28.02,
+      "syllables": [
+        "zu"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Haus.",
+      "s": 28.02,
+      "e": 28.48,
+      "syllables": [
+        "Haus."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Zum",
+      "s": 29.32,
+      "e": 29.92,
+      "syllables": [
+        "Zum"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Glück!",
+      "s": 29.92,
+      "e": 30.22,
+      "syllables": [
+        "Glück!"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "title": "Der Drachen im Wind",
+  "audioSrc": "audio/text3.7.mp3",
+  "words": [
+    {
+      "w": "Der",
+      "s": 0.0,
+      "e": 0.72,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Drachen",
+      "s": 0.72,
+      "e": 1.74,
+      "syllables": [
+        "Dra",
+        "chen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "im",
+      "s": 1.74,
+      "e": 2.56,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Wind",
+      "s": 2.56,
+      "e": 3.54,
+      "syllables": [
+        "Wind"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Tom",
+      "s": 4.96,
+      "e": 5.66,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hat",
+      "s": 5.66,
+      "e": 6.58,
+      "syllables": [
+        "hat"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "einen",
+      "s": 6.58,
+      "e": 7.74,
+      "syllables": [
+        "einen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Drachen.",
+      "s": 7.74,
+      "e": 8.52,
+      "syllables": [
+        "Dra",
+        "chen."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 10.02,
+      "e": 10.3,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Wind",
+      "s": 10.3,
+      "e": 11.1,
+      "syllables": [
+        "Wind"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 11.1,
+      "e": 12.06,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "heute",
+      "s": 12.06,
+      "e": 13.32,
+      "syllables": [
+        "heu",
+        "te"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "stark.",
+      "s": 13.32,
+      "e": 13.94,
+      "syllables": [
+        "stark."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 15.26,
+      "e": 15.76,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Drachen",
+      "s": 15.76,
+      "e": 16.56,
+      "syllables": [
+        "Dra",
+        "chen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "steigt",
+      "s": 16.56,
+      "e": 17.5,
+      "syllables": [
+        "steigt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hoch.",
+      "s": 17.5,
+      "e": 18.4,
+      "syllables": [
+        "hoch."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 19.86,
+      "e": 20.64,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hält",
+      "s": 20.64,
+      "e": 21.2,
+      "syllables": [
+        "hält"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "die",
+      "s": 21.2,
+      "e": 22.2,
+      "syllables": [
+        "die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Schnur",
+      "s": 22.2,
+      "e": 22.84,
+      "syllables": [
+        "Schnur"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fest.",
+      "s": 22.84,
+      "e": 23.7,
+      "syllables": [
+        "fest."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 24.96,
+      "e": 25.38,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 25.38,
+      "e": 25.98,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "über",
+      "s": 25.98,
+      "e": 26.96,
+      "syllables": [
+        "über"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "die",
+      "s": 26.96,
+      "e": 27.9,
+      "syllables": [
+        "die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Wiese.",
+      "s": 27.9,
+      "e": 28.34,
+      "syllables": [
+        "Wie",
+        "se."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 28.34,
+      "e": 30.04,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Drachen",
+      "s": 30.04,
+      "e": 30.94,
+      "syllables": [
+        "Dra",
+        "chen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "tanzt",
+      "s": 30.94,
+      "e": 31.96,
+      "syllables": [
+        "tanzt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 31.96,
+      "e": 32.82,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Wind.",
+      "s": 32.82,
+      "e": 33.54,
+      "syllables": [
+        "Wind."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 35.1,
+      "e": 35.5,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "lässt",
+      "s": 35.5,
+      "e": 36.38,
+      "syllables": [
+        "lässt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "der",
+      "s": 36.38,
+      "e": 37.68,
+      "syllables": [
+        "der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Wind",
+      "s": 37.68,
+      "e": 37.7,
+      "syllables": [
+        "Wind"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "nach.",
+      "s": 37.7,
+      "e": 38.68,
+      "syllables": [
+        "nach."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 40.04,
+      "e": 40.36,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Drachen",
+      "s": 40.36,
+      "e": 41.28,
+      "syllables": [
+        "Dra",
+        "chen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sinkt",
+      "s": 41.28,
+      "e": 42.52,
+      "syllables": [
+        "sinkt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "langsam.",
+      "s": 42.52,
+      "e": 43.28,
+      "syllables": [
+        "lang",
+        "sam."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 44.62,
+      "e": 45.04,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "holt",
+      "s": 45.04,
+      "e": 46.14,
+      "syllables": [
+        "holt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ihn",
+      "s": 46.14,
+      "e": 46.6,
+      "syllables": [
+        "ihn"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "zurück.",
+      "s": 46.6,
+      "e": 47.32,
+      "syllables": [
+        "zu",
+        "rück."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

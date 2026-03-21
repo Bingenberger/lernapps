@@ -1,0 +1,331 @@
+{
+  "title": "Lina fährt Rad",
+  "audioSrc": "audio/text2.3.mp3",
+  "words": [
+    {
+      "w": "Lina",
+      "s": 0.0,
+      "e": 1.26,
+      "syllables": [
+        "Li",
+        "na"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "fährt",
+      "s": 1.26,
+      "e": 2.7,
+      "syllables": [
+        "fährt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Rad",
+      "s": 2.7,
+      "e": 4.08,
+      "syllables": [
+        "Rad"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Lina",
+      "s": 5.18,
+      "e": 5.84,
+      "syllables": [
+        "Li",
+        "na"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hat",
+      "s": 5.84,
+      "e": 7.18,
+      "syllables": [
+        "hat"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 7.18,
+      "e": 8.86,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Rad.",
+      "s": 8.86,
+      "e": 9.38,
+      "syllables": [
+        "Rad."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 10.66,
+      "e": 10.96,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fährt",
+      "s": 10.96,
+      "e": 12.16,
+      "syllables": [
+        "fährt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 12.16,
+      "e": 13.34,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hof.",
+      "s": 13.34,
+      "e": 14.36,
+      "syllables": [
+        "Hof."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 15.94,
+      "e": 15.94,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fährt",
+      "s": 15.94,
+      "e": 17.04,
+      "syllables": [
+        "fährt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sehr",
+      "s": 17.04,
+      "e": 18.56,
+      "syllables": [
+        "sehr"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schnell.",
+      "s": 18.56,
+      "e": 18.96,
+      "syllables": [
+        "schnell."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 20.26,
+      "e": 20.88,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "bremst",
+      "s": 20.88,
+      "e": 22.08,
+      "syllables": [
+        "bremst"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sie",
+      "s": 22.08,
+      "e": 23.1,
+      "syllables": [
+        "sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ab.",
+      "s": 23.1,
+      "e": 24.02,
+      "syllables": [
+        "ab."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 25.3,
+      "e": 25.68,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Rad",
+      "s": 25.68,
+      "e": 26.62,
+      "syllables": [
+        "Rad"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "wackelt",
+      "s": 26.62,
+      "e": 27.72,
+      "syllables": [
+        "wa",
+        "ckelt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kurz.",
+      "s": 27.72,
+      "e": 28.74,
+      "syllables": [
+        "kurz."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Lina",
+      "s": 28.74,
+      "e": 30.5,
+      "syllables": [
+        "Li",
+        "na"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hält",
+      "s": 30.5,
+      "e": 31.7,
+      "syllables": [
+        "hält"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fest.",
+      "s": 31.7,
+      "e": 32.76,
+      "syllables": [
+        "fest."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 33.84,
+      "e": 34.48,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "bleibt",
+      "s": 34.48,
+      "e": 35.58,
+      "syllables": [
+        "bleibt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "oben.",
+      "s": 35.58,
+      "e": 36.76,
+      "syllables": [
+        "oben."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Lina",
+      "s": 38.42,
+      "e": 38.96,
+      "syllables": [
+        "Li",
+        "na"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "lacht",
+      "s": 38.96,
+      "e": 40.0,
+      "syllables": [
+        "lacht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "laut.",
+      "s": 40.0,
+      "e": 41.08,
+      "syllables": [
+        "laut."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

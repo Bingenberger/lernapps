@@ -1,0 +1,276 @@
+{
+  "title": "Das Huhn",
+  "audioSrc": "audio/text1.5.mp3",
+  "words": [
+    {
+      "w": "Das",
+      "s": 0.0,
+      "e": 1.64,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Huhn",
+      "s": 1.64,
+      "e": 1.8,
+      "syllables": [
+        "Huhn"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Das",
+      "s": 3.08,
+      "e": 3.74,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Huhn",
+      "s": 3.74,
+      "e": 4.32,
+      "syllables": [
+        "Huhn"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 4.32,
+      "e": 5.48,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 5.48,
+      "e": 6.42,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hof.",
+      "s": 6.42,
+      "e": 6.88,
+      "syllables": [
+        "Hof."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Es",
+      "s": 8.22,
+      "e": 8.52,
+      "syllables": [
+        "Es"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "pickt",
+      "s": 8.52,
+      "e": 9.64,
+      "syllables": [
+        "pickt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 9.64,
+      "e": 10.52,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Gras.",
+      "s": 10.52,
+      "e": 11.16,
+      "syllables": [
+        "Gras."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Es",
+      "s": 12.6,
+      "e": 12.94,
+      "syllables": [
+        "Es"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 12.94,
+      "e": 13.68,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hin",
+      "s": 13.68,
+      "e": 14.58,
+      "syllables": [
+        "hin"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "und",
+      "s": 14.58,
+      "e": 15.36,
+      "syllables": [
+        "und"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "her.",
+      "s": 15.36,
+      "e": 16.12,
+      "syllables": [
+        "her."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Ben",
+      "s": 17.68,
+      "e": 17.78,
+      "syllables": [
+        "Ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sieht",
+      "s": 17.78,
+      "e": 18.72,
+      "syllables": [
+        "sieht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "das",
+      "s": 18.72,
+      "e": 20.12,
+      "syllables": [
+        "das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Huhn.",
+      "s": 20.12,
+      "e": 20.64,
+      "syllables": [
+        "Huhn."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 21.96,
+      "e": 22.36,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "bleibt",
+      "s": 22.36,
+      "e": 23.22,
+      "syllables": [
+        "bleibt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "still.",
+      "s": 23.22,
+      "e": 24.02,
+      "syllables": [
+        "still."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 24.02,
+      "e": 25.86,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Huhn",
+      "s": 25.86,
+      "e": 26.7,
+      "syllables": [
+        "Huhn"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 26.7,
+      "e": 27.72,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "weg.",
+      "s": 27.72,
+      "e": 28.32,
+      "syllables": [
+        "weg."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

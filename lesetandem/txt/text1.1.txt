@@ -1,0 +1,9 @@
+Der Igel
+
+Der Igel ist da.
+Der Igel ist im Gras.
+Der Igel ist nass.
+Der Igel rennt.
+Der Igel rennt weg.
+Ist der Igel weg?
+Ja! Der Igel ist weg.

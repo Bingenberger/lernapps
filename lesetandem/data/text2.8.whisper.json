@@ -1,0 +1,318 @@
+{
+  "title": "Das Brot",
+  "audioSrc": "audio/text2.8.mp3",
+  "words": [
+    {
+      "w": "Das",
+      "s": 0.0,
+      "e": 0.82,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Brot",
+      "s": 0.82,
+      "e": 1.92,
+      "syllables": [
+        "Brot"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Tom",
+      "s": 3.8,
+      "e": 3.8,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hat",
+      "s": 3.8,
+      "e": 4.88,
+      "syllables": [
+        "hat"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 4.88,
+      "e": 6.8,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Brot.",
+      "s": 6.8,
+      "e": 7.32,
+      "syllables": [
+        "Brot."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 8.78,
+      "e": 9.26,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sitzt",
+      "s": 9.26,
+      "e": 10.36,
+      "syllables": [
+        "sitzt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "am",
+      "s": 10.36,
+      "e": 11.52,
+      "syllables": [
+        "am"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Tisch.",
+      "s": 11.52,
+      "e": 11.98,
+      "syllables": [
+        "Tisch."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 13.74,
+      "e": 14.1,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Brot",
+      "s": 14.1,
+      "e": 14.72,
+      "syllables": [
+        "Brot"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 14.72,
+      "e": 16.22,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "warm.",
+      "s": 16.22,
+      "e": 16.8,
+      "syllables": [
+        "warm."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 18.2,
+      "e": 18.84,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "beißt",
+      "s": 18.84,
+      "e": 20.28,
+      "syllables": [
+        "bei",
+        "ßt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hinein.",
+      "s": 20.28,
+      "e": 21.18,
+      "syllables": [
+        "hin",
+        "ein."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 22.34,
+      "e": 22.84,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "trinkt",
+      "s": 22.84,
+      "e": 24.0,
+      "syllables": [
+        "trinkt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "er",
+      "s": 24.0,
+      "e": 25.1,
+      "syllables": [
+        "er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Milch.",
+      "s": 25.1,
+      "e": 26.02,
+      "syllables": [
+        "Milch."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 27.44,
+      "e": 27.44,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "isst",
+      "s": 27.44,
+      "e": 28.5,
+      "syllables": [
+        "isst"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "noch",
+      "s": 28.5,
+      "e": 29.02,
+      "syllables": [
+        "noch"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "mehr.",
+      "s": 29.02,
+      "e": 29.66,
+      "syllables": [
+        "mehr."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 31.18,
+      "e": 31.32,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 31.32,
+      "e": 32.52,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "satt.",
+      "s": 32.52,
+      "e": 32.98,
+      "syllables": [
+        "satt."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 34.2,
+      "e": 34.68,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "war",
+      "s": 34.68,
+      "e": 35.5,
+      "syllables": [
+        "war"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "gut.",
+      "s": 35.5,
+      "e": 36.36,
+      "syllables": [
+        "gut."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    }
+  ]
+}

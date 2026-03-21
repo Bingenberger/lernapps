@@ -1,0 +1,476 @@
+{
+  "title": "Die Katze und die Maus",
+  "audioSrc": "audio/text3.3.mp3",
+  "words": [
+    {
+      "w": "Die",
+      "s": 0.0,
+      "e": 0.68,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Katze",
+      "s": 0.68,
+      "e": 1.82,
+      "syllables": [
+        "Kat",
+        "ze"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "und",
+      "s": 1.82,
+      "e": 3.2,
+      "syllables": [
+        "und"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "die",
+      "s": 3.2,
+      "e": 4.24,
+      "syllables": [
+        "die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Maus",
+      "s": 4.24,
+      "e": 4.84,
+      "syllables": [
+        "Maus"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Die",
+      "s": 5.96,
+      "e": 6.84,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Katze",
+      "s": 6.84,
+      "e": 7.68,
+      "syllables": [
+        "Kat",
+        "ze"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sitzt",
+      "s": 7.68,
+      "e": 8.5,
+      "syllables": [
+        "sitzt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 8.5,
+      "e": 9.52,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Haus.",
+      "s": 9.52,
+      "e": 10.1,
+      "syllables": [
+        "Haus."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 12.0,
+      "e": 12.02,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sieht",
+      "s": 12.02,
+      "e": 12.92,
+      "syllables": [
+        "sieht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "eine",
+      "s": 12.92,
+      "e": 14.18,
+      "syllables": [
+        "ei",
+        "ne"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kleine",
+      "s": 14.18,
+      "e": 15.52,
+      "syllables": [
+        "klei",
+        "ne"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Maus.",
+      "s": 15.52,
+      "e": 16.12,
+      "syllables": [
+        "Maus."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 17.72,
+      "e": 17.96,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Maus",
+      "s": 17.96,
+      "e": 18.82,
+      "syllables": [
+        "Maus"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 18.82,
+      "e": 19.74,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schnell",
+      "s": 19.74,
+      "e": 20.52,
+      "syllables": [
+        "schnell"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "los.",
+      "s": 20.52,
+      "e": 21.36,
+      "syllables": [
+        "los."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 22.94,
+      "e": 23.4,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Katze",
+      "s": 23.4,
+      "e": 24.22,
+      "syllables": [
+        "Kat",
+        "ze"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "springt",
+      "s": 24.22,
+      "e": 25.62,
+      "syllables": [
+        "springt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hinterher.",
+      "s": 25.62,
+      "e": 26.68,
+      "syllables": [
+        "hin",
+        "ter",
+        "her."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 27.68,
+      "e": 28.46,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rennt",
+      "s": 28.46,
+      "e": 29.26,
+      "syllables": [
+        "rennt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "durch",
+      "s": 29.26,
+      "e": 30.12,
+      "syllables": [
+        "durch"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "den",
+      "s": 30.12,
+      "e": 30.94,
+      "syllables": [
+        "den"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Flur.",
+      "s": 30.94,
+      "e": 31.34,
+      "syllables": [
+        "Flur."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 32.88,
+      "e": 33.28,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Maus",
+      "s": 33.28,
+      "e": 33.86,
+      "syllables": [
+        "Maus"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 33.86,
+      "e": 34.62,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sehr",
+      "s": 34.62,
+      "e": 35.34,
+      "syllables": [
+        "sehr"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "flink.",
+      "s": 35.34,
+      "e": 35.86,
+      "syllables": [
+        "flink."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 37.34,
+      "e": 37.72,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Katze",
+      "s": 37.72,
+      "e": 38.38,
+      "syllables": [
+        "Kat",
+        "ze"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kommt",
+      "s": 38.38,
+      "e": 39.08,
+      "syllables": [
+        "kommt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "nicht",
+      "s": 39.08,
+      "e": 39.78,
+      "syllables": [
+        "nicht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ran.",
+      "s": 39.78,
+      "e": 40.34,
+      "syllables": [
+        "ran."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 41.62,
+      "e": 42.14,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "bleibt",
+      "s": 42.14,
+      "e": 42.86,
+      "syllables": [
+        "bleibt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sie",
+      "s": 42.86,
+      "e": 43.44,
+      "syllables": [
+        "sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "stehen.",
+      "s": 43.44,
+      "e": 44.04,
+      "syllables": [
+        "ste",
+        "hen."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "„Schade!“,",
+      "s": 45.32,
+      "e": 45.9,
+      "syllables": [
+        "„Scha",
+        "de!“,"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "denkt",
+      "s": 47.12,
+      "e": 47.12,
+      "syllables": [
+        "denkt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sie.",
+      "s": 47.12,
+      "e": 47.48,
+      "syllables": [
+        "sie."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "title": "In der Küche",
+  "audioSrc": "audio/text3.8.mp3",
+  "words": [
+    {
+      "w": "In",
+      "s": 0.0,
+      "e": 0.82,
+      "syllables": [
+        "In"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "der",
+      "s": 0.82,
+      "e": 1.48,
+      "syllables": [
+        "der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Küche",
+      "s": 1.48,
+      "e": 2.34,
+      "syllables": [
+        "Kü",
+        "che"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Mia",
+      "s": 4.0,
+      "e": 4.0,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "steht",
+      "s": 4.0,
+      "e": 4.96,
+      "syllables": [
+        "steht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "in",
+      "s": 4.96,
+      "e": 5.82,
+      "syllables": [
+        "in"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "der",
+      "s": 5.82,
+      "e": 6.44,
+      "syllables": [
+        "der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Küche.",
+      "s": 6.44,
+      "e": 6.9,
+      "syllables": [
+        "Kü",
+        "che."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 8.18,
+      "e": 8.2,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "will",
+      "s": 8.2,
+      "e": 8.76,
+      "syllables": [
+        "will"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Kekse",
+      "s": 8.76,
+      "e": 9.58,
+      "syllables": [
+        "Kek",
+        "se"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "backen.",
+      "s": 9.58,
+      "e": 10.64,
+      "syllables": [
+        "ba",
+        "cken."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 11.48,
+      "e": 11.6,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "nimmt",
+      "s": 11.6,
+      "e": 12.1,
+      "syllables": [
+        "nimmt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Mehl",
+      "s": 12.1,
+      "e": 12.94,
+      "syllables": [
+        "Mehl"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "und",
+      "s": 12.94,
+      "e": 13.92,
+      "syllables": [
+        "und"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Milch.",
+      "s": 13.92,
+      "e": 14.56,
+      "syllables": [
+        "Milch."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 15.36,
+      "e": 15.8,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rührt",
+      "s": 15.8,
+      "e": 16.34,
+      "syllables": [
+        "rührt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sie",
+      "s": 16.34,
+      "e": 16.88,
+      "syllables": [
+        "sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "den",
+      "s": 16.88,
+      "e": 17.66,
+      "syllables": [
+        "den"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Teig.",
+      "s": 17.66,
+      "e": 18.12,
+      "syllables": [
+        "Teig."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 19.16,
+      "e": 19.38,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Teig",
+      "s": 19.38,
+      "e": 20.08,
+      "syllables": [
+        "Teig"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 20.08,
+      "e": 20.76,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ganz",
+      "s": 20.76,
+      "e": 21.66,
+      "syllables": [
+        "ganz"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "weich.",
+      "s": 21.66,
+      "e": 22.18,
+      "syllables": [
+        "weich."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 22.18,
+      "e": 23.7,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "formt",
+      "s": 23.7,
+      "e": 24.82,
+      "syllables": [
+        "formt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kleine",
+      "s": 24.82,
+      "e": 25.52,
+      "syllables": [
+        "klei",
+        "ne"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Kugeln.",
+      "s": 25.52,
+      "e": 26.4,
+      "syllables": [
+        "Ku",
+        "geln."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 27.34,
+      "e": 27.58,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Kekse",
+      "s": 27.58,
+      "e": 28.38,
+      "syllables": [
+        "Kek",
+        "se"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kommen",
+      "s": 28.38,
+      "e": 29.16,
+      "syllables": [
+        "kom",
+        "men"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "in",
+      "s": 29.16,
+      "e": 29.86,
+      "syllables": [
+        "in"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "den",
+      "s": 29.86,
+      "e": 30.5,
+      "syllables": [
+        "den"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ofen.",
+      "s": 30.5,
+      "e": 31.02,
+      "syllables": [
+        "Ofen."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Es",
+      "s": 31.82,
+      "e": 32.08,
+      "syllables": [
+        "Es"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "duftet",
+      "s": 32.08,
+      "e": 32.68,
+      "syllables": [
+        "duf",
+        "tet"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schon",
+      "s": 32.68,
+      "e": 33.28,
+      "syllables": [
+        "schon"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "gut.",
+      "s": 33.28,
+      "e": 33.76,
+      "syllables": [
+        "gut."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 34.56,
+      "e": 35.02,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "freut",
+      "s": 35.02,
+      "e": 35.66,
+      "syllables": [
+        "freut"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sich",
+      "s": 35.66,
+      "e": 36.02,
+      "syllables": [
+        "sich"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sehr.",
+      "s": 36.02,
+      "e": 36.5,
+      "syllables": [
+        "sehr."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

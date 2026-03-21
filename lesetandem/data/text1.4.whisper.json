@@ -1,0 +1,282 @@
+{
+  "title": "Die Mütze",
+  "audioSrc": "audio/text1.4.mp3",
+  "words": [
+    {
+      "w": "Die",
+      "s": 0.0,
+      "e": 0.84,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Mütze",
+      "s": 0.84,
+      "e": 2.04,
+      "syllables": [
+        "Müt",
+        "ze"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Die",
+      "s": 3.5,
+      "e": 3.76,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Mütze",
+      "s": 3.76,
+      "e": 5.1,
+      "syllables": [
+        "Müt",
+        "ze"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 5.1,
+      "e": 6.38,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rot.",
+      "s": 6.38,
+      "e": 7.46,
+      "syllables": [
+        "rot."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 8.7,
+      "e": 9.06,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Mütze",
+      "s": 9.06,
+      "e": 10.46,
+      "syllables": [
+        "Müt",
+        "ze"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 10.46,
+      "e": 11.64,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "neu.",
+      "s": 11.64,
+      "e": 12.94,
+      "syllables": [
+        "neu."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tim",
+      "s": 14.88,
+      "e": 14.96,
+      "syllables": [
+        "Tim"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hat",
+      "s": 14.96,
+      "e": 16.18,
+      "syllables": [
+        "hat"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "die",
+      "s": 16.18,
+      "e": 18.02,
+      "syllables": [
+        "die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Mütze.",
+      "s": 18.02,
+      "e": 18.72,
+      "syllables": [
+        "Müt",
+        "ze."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 19.86,
+      "e": 20.34,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 20.34,
+      "e": 21.76,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 21.76,
+      "e": 23.62,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hof.",
+      "s": 23.62,
+      "e": 24.2,
+      "syllables": [
+        "Hof."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 24.2,
+      "e": 25.6,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Mütze",
+      "s": 25.6,
+      "e": 26.96,
+      "syllables": [
+        "Müt",
+        "ze"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fällt",
+      "s": 26.96,
+      "e": 28.28,
+      "syllables": [
+        "fällt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ab.",
+      "s": 28.28,
+      "e": 29.84,
+      "syllables": [
+        "ab."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tim",
+      "s": 31.02,
+      "e": 31.22,
+      "syllables": [
+        "Tim"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "bleibt",
+      "s": 31.22,
+      "e": 32.64,
+      "syllables": [
+        "bleibt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "stehen.",
+      "s": 32.64,
+      "e": 34.02,
+      "syllables": [
+        "ste",
+        "hen."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Oh",
+      "s": 35.22,
+      "e": 36.62,
+      "syllables": [
+        "Oh"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "nein!",
+      "s": 36.62,
+      "e": 36.82,
+      "syllables": [
+        "nein!"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

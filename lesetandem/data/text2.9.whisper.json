@@ -1,0 +1,388 @@
+{
+  "title": "Der Hund und der Ball",
+  "audioSrc": "audio/text2.9.mp3",
+  "words": [
+    {
+      "w": "Der",
+      "s": 0.0,
+      "e": 0.76,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Hund",
+      "s": 0.76,
+      "e": 1.2,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "und",
+      "s": 1.2,
+      "e": 1.82,
+      "syllables": [
+        "und"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "der",
+      "s": 1.82,
+      "e": 2.38,
+      "syllables": [
+        "der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Ball",
+      "s": 2.38,
+      "e": 2.7,
+      "syllables": [
+        "Ball"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Der",
+      "s": 3.3,
+      "e": 4.32,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 4.32,
+      "e": 4.76,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 4.76,
+      "e": 5.26,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 5.26,
+      "e": 5.66,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Garten.",
+      "s": 5.66,
+      "e": 6.24,
+      "syllables": [
+        "Gar",
+        "ten."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 7.14,
+      "e": 7.34,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sieht",
+      "s": 7.34,
+      "e": 7.82,
+      "syllables": [
+        "sieht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "einen",
+      "s": 7.82,
+      "e": 8.6,
+      "syllables": [
+        "einen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball.",
+      "s": 8.6,
+      "e": 8.94,
+      "syllables": [
+        "Ball."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 10.08,
+      "e": 10.32,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball",
+      "s": 10.32,
+      "e": 10.68,
+      "syllables": [
+        "Ball"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 10.68,
+      "e": 11.38,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rot.",
+      "s": 11.38,
+      "e": 11.78,
+      "syllables": [
+        "rot."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 12.78,
+      "e": 13.12,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 13.12,
+      "e": 13.58,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rennt",
+      "s": 13.58,
+      "e": 14.24,
+      "syllables": [
+        "rennt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "los.",
+      "s": 14.24,
+      "e": 14.94,
+      "syllables": [
+        "los."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 15.88,
+      "e": 16.24,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "holt",
+      "s": 16.24,
+      "e": 16.88,
+      "syllables": [
+        "holt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "den",
+      "s": 16.88,
+      "e": 17.38,
+      "syllables": [
+        "den"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball.",
+      "s": 17.38,
+      "e": 17.68,
+      "syllables": [
+        "Ball."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 18.82,
+      "e": 19.26,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 19.26,
+      "e": 19.8,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "er",
+      "s": 19.8,
+      "e": 20.26,
+      "syllables": [
+        "er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "zurück.",
+      "s": 20.26,
+      "e": 20.98,
+      "syllables": [
+        "zu",
+        "rück."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 22.12,
+      "e": 22.42,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 22.42,
+      "e": 22.9,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "bringt",
+      "s": 22.9,
+      "e": 23.66,
+      "syllables": [
+        "bringt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "den",
+      "s": 23.66,
+      "e": 24.46,
+      "syllables": [
+        "den"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball.",
+      "s": 24.46,
+      "e": 24.74,
+      "syllables": [
+        "Ball."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 25.74,
+      "e": 26.26,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "macht",
+      "s": 26.26,
+      "e": 26.68,
+      "syllables": [
+        "macht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Spaß.",
+      "s": 26.68,
+      "e": 27.38,
+      "syllables": [
+        "Spaß."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

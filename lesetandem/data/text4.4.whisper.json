@@ -1,0 +1,691 @@
+{
+  "title": "Ein Tag im Park",
+  "audioSrc": "audio/text4.4.mp3",
+  "words": [
+    {
+      "w": "Ein",
+      "s": 0.0,
+      "e": 0.76,
+      "syllables": [
+        "Ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Tag",
+      "s": 0.76,
+      "e": 1.18,
+      "syllables": [
+        "Tag"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "im",
+      "s": 1.18,
+      "e": 2.02,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Park",
+      "s": 2.02,
+      "e": 2.02,
+      "syllables": [
+        "Park"
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": true
+    },
+    {
+      "w": "Die",
+      "s": 2.02,
+      "e": 3.64,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Sonne",
+      "s": 3.64,
+      "e": 4.18,
+      "syllables": [
+        "Son",
+        "ne"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "scheint",
+      "s": 4.18,
+      "e": 4.72,
+      "syllables": [
+        "scheint"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hell",
+      "s": 4.72,
+      "e": 5.22,
+      "syllables": [
+        "hell"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "am",
+      "s": 5.22,
+      "e": 5.76,
+      "syllables": [
+        "am"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Himmel.",
+      "s": 5.76,
+      "e": 6.36,
+      "syllables": [
+        "Him",
+        "mel."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Viele",
+      "s": 7.9,
+      "e": 7.94,
+      "syllables": [
+        "Vie",
+        "le"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Kinder",
+      "s": 7.94,
+      "e": 8.62,
+      "syllables": [
+        "Kin",
+        "der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sind",
+      "s": 8.62,
+      "e": 9.44,
+      "syllables": [
+        "sind"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 9.44,
+      "e": 10.24,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Park.",
+      "s": 10.24,
+      "e": 10.24,
+      "syllables": [
+        "Park."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Ben",
+      "s": 12.04,
+      "e": 12.18,
+      "syllables": [
+        "Ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sitzt",
+      "s": 12.18,
+      "e": 13.1,
+      "syllables": [
+        "sitzt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "auf",
+      "s": 13.1,
+      "e": 13.5,
+      "syllables": [
+        "auf"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "einer",
+      "s": 13.5,
+      "e": 14.08,
+      "syllables": [
+        "ei",
+        "ner"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Bank.",
+      "s": 14.08,
+      "e": 14.52,
+      "syllables": [
+        "Bank."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 15.62,
+      "e": 15.96,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "liest",
+      "s": 15.96,
+      "e": 16.4,
+      "syllables": [
+        "liest"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "in",
+      "s": 16.4,
+      "e": 17.0,
+      "syllables": [
+        "in"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "einem",
+      "s": 17.0,
+      "e": 17.44,
+      "syllables": [
+        "ei",
+        "nem"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Buch.",
+      "s": 17.44,
+      "e": 17.82,
+      "syllables": [
+        "Buch."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Neben",
+      "s": 19.78,
+      "e": 19.8,
+      "syllables": [
+        "Ne",
+        "ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ihm",
+      "s": 19.8,
+      "e": 20.38,
+      "syllables": [
+        "ihm"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "spielt",
+      "s": 20.38,
+      "e": 21.32,
+      "syllables": [
+        "spielt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 21.32,
+      "e": 22.02,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball.",
+      "s": 22.02,
+      "e": 22.56,
+      "syllables": [
+        "Ball."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 24.04,
+      "e": 24.34,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball",
+      "s": 24.34,
+      "e": 24.7,
+      "syllables": [
+        "Ball"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rollt",
+      "s": 24.7,
+      "e": 25.66,
+      "syllables": [
+        "rollt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "zu",
+      "s": 25.66,
+      "e": 25.92,
+      "syllables": [
+        "zu"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ben.",
+      "s": 25.92,
+      "e": 26.24,
+      "syllables": [
+        "Ben."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Ben",
+      "s": 27.2,
+      "e": 27.96,
+      "syllables": [
+        "Ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hebt",
+      "s": 27.96,
+      "e": 28.76,
+      "syllables": [
+        "hebt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ihn",
+      "s": 28.76,
+      "e": 29.14,
+      "syllables": [
+        "ihn"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "auf.",
+      "s": 29.14,
+      "e": 29.56,
+      "syllables": [
+        "auf."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 30.68,
+      "e": 30.96,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "wirft",
+      "s": 30.96,
+      "e": 31.46,
+      "syllables": [
+        "wirft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ihn",
+      "s": 31.46,
+      "e": 31.86,
+      "syllables": [
+        "ihn"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "zurück.",
+      "s": 31.86,
+      "e": 32.4,
+      "syllables": [
+        "zu",
+        "rück."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 33.96,
+      "e": 34.16,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "lacht",
+      "s": 34.16,
+      "e": 34.76,
+      "syllables": [
+        "lacht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "und",
+      "s": 34.76,
+      "e": 35.88,
+      "syllables": [
+        "und"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ruft",
+      "s": 35.88,
+      "e": 35.88,
+      "syllables": [
+        "ruft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "„Danke!“.",
+      "s": 35.88,
+      "e": 36.82,
+      "syllables": [
+        "„Dan",
+        "ke!“."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Ein",
+      "s": 38.34,
+      "e": 38.76,
+      "syllables": [
+        "Ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 38.76,
+      "e": 39.12,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 39.12,
+      "e": 40.02,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "bellend",
+      "s": 40.02,
+      "e": 40.82,
+      "syllables": [
+        "bel",
+        "lend"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "vorbei.",
+      "s": 40.82,
+      "e": 41.76,
+      "syllables": [
+        "vor",
+        "bei."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 43.42,
+      "e": 43.76,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Blätter",
+      "s": 43.76,
+      "e": 44.28,
+      "syllables": [
+        "Blät",
+        "ter"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rauschen",
+      "s": 44.28,
+      "e": 45.6,
+      "syllables": [
+        "rau",
+        "schen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 45.6,
+      "e": 46.6,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Wind.",
+      "s": 46.6,
+      "e": 46.92,
+      "syllables": [
+        "Wind."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Es",
+      "s": 48.22,
+      "e": 48.48,
+      "syllables": [
+        "Es"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 48.48,
+      "e": 48.86,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 48.86,
+      "e": 49.46,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schöner",
+      "s": 49.46,
+      "e": 49.74,
+      "syllables": [
+        "schö",
+        "ner"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Tag.",
+      "s": 49.74,
+      "e": 50.24,
+      "syllables": [
+        "Tag."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Ben",
+      "s": 51.36,
+      "e": 51.82,
+      "syllables": [
+        "Ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "liest",
+      "s": 51.82,
+      "e": 52.58,
+      "syllables": [
+        "liest"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "noch",
+      "s": 52.58,
+      "e": 53.04,
+      "syllables": [
+        "noch"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "weiter.",
+      "s": 53.04,
+      "e": 53.44,
+      "syllables": [
+        "wei",
+        "ter."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "title": "Die Maus",
+  "audioSrc": "audio/text1.3.mp3",
+  "words": [
+    {
+      "w": "Die",
+      "s": 0.0,
+      "e": 0.62,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Maus",
+      "s": 0.62,
+      "e": 1.88,
+      "syllables": [
+        "Maus"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Da",
+      "s": 4.0,
+      "e": 4.76,
+      "syllables": [
+        "Da"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 4.76,
+      "e": 5.78,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "eine",
+      "s": 5.78,
+      "e": 7.04,
+      "syllables": [
+        "ei",
+        "ne"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Maus.",
+      "s": 7.04,
+      "e": 7.98,
+      "syllables": [
+        "Maus."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 10.4,
+      "e": 10.72,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Maus",
+      "s": 10.72,
+      "e": 11.72,
+      "syllables": [
+        "Maus"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 11.72,
+      "e": 12.54,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "klein.",
+      "s": 12.54,
+      "e": 13.44,
+      "syllables": [
+        "klein."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 16.98,
+      "e": 17.46,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 17.46,
+      "e": 18.12,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 18.12,
+      "e": 19.1,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Haus.",
+      "s": 19.1,
+      "e": 19.64,
+      "syllables": [
+        "Haus."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 22.76,
+      "e": 23.14,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 23.14,
+      "e": 24.0,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sehr",
+      "s": 24.0,
+      "e": 25.0,
+      "syllables": [
+        "sehr"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schnell.",
+      "s": 25.0,
+      "e": 25.44,
+      "syllables": [
+        "schnell."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 27.02,
+      "e": 28.42,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sieht",
+      "s": 28.42,
+      "e": 29.36,
+      "syllables": [
+        "sieht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "die",
+      "s": 29.36,
+      "e": 30.42,
+      "syllables": [
+        "die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Maus.",
+      "s": 30.42,
+      "e": 30.94,
+      "syllables": [
+        "Maus."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 33.82,
+      "e": 33.82,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ruft",
+      "s": 33.82,
+      "e": 34.58,
+      "syllables": [
+        "ruft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "laut.",
+      "s": 34.58,
+      "e": 35.48,
+      "syllables": [
+        "laut."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 37.56,
+      "e": 38.24,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Maus",
+      "s": 38.24,
+      "e": 38.78,
+      "syllables": [
+        "Maus"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 38.78,
+      "e": 39.76,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "weg.",
+      "s": 39.76,
+      "e": 40.3,
+      "syllables": [
+        "weg."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

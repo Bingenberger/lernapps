@@ -1,0 +1,46 @@
+{
+  "title": "Der Hund im Wald",
+  "audioSrc": "audio/text2.1.mp3",
+  "words": [
+    { "w": "Der", "s": 0.0, "e": 0.5, "syllables": ["Der"] },
+    { "w": "Hund", "s": 0.5, "e": 1.0, "syllables": ["Hund"] },
+    { "w": "ist", "s": 1.0, "e": 1.4, "syllables": ["ist"] },
+    { "w": "im", "s": 1.4, "e": 1.8, "syllables": ["im"] },
+    { "w": "Wald.", "s": 1.8, "e": 2.4, "syllables": ["Wald."] },
+
+    { "w": "Er", "s": 2.7, "e": 3.1, "syllables": ["Er"] },
+    { "w": "rennt", "s": 3.1, "e": 3.8, "syllables": ["rennt"] },
+    { "w": "und", "s": 3.8, "e": 4.2, "syllables": ["und"] },
+    { "w": "er", "s": 4.2, "e": 4.5, "syllables": ["er"] },
+    { "w": "spielt.", "s": 4.5, "e": 5.2, "syllables": ["spielt."] },
+
+    { "w": "Der", "s": 5.5, "e": 5.9, "syllables": ["Der"] },
+    { "w": "Hund", "s": 5.9, "e": 6.5, "syllables": ["Hund"] },
+    { "w": "sieht", "s": 6.5, "e": 7.1, "syllables": ["sieht"] },
+    { "w": "ein", "s": 7.1, "e": 7.5, "syllables": ["ein"] },
+    { "w": "Tier.", "s": 7.5, "e": 8.2, "syllables": ["Tier."] },
+
+    { "w": "Es", "s": 8.5, "e": 8.9, "syllables": ["Es"] },
+    { "w": "ist", "s": 8.9, "e": 9.3, "syllables": ["ist"] },
+    { "w": "ein", "s": 9.3, "e": 9.7, "syllables": ["ein"] },
+    { "w": "Reh.", "s": 9.7, "e": 10.3, "syllables": ["Reh."] },
+
+    { "w": "Der", "s": 10.7, "e": 11.1, "syllables": ["Der"] },
+    { "w": "Hund", "s": 11.1, "e": 11.7, "syllables": ["Hund"] },
+    { "w": "rennt", "s": 11.7, "e": 12.3, "syllables": ["rennt"] },
+    { "w": "los.", "s": 12.3, "e": 12.9, "syllables": ["los."] },
+
+    { "w": "Das", "s": 13.2, "e": 13.7, "syllables": ["Das"] },
+    { "w": "Reh", "s": 13.7, "e": 14.2, "syllables": ["Reh"] },
+    { "w": "rennt", "s": 14.2, "e": 14.8, "syllables": ["rennt"] },
+    { "w": "weg.", "s": 14.8, "e": 15.4, "syllables": ["weg."] },
+
+    { "w": "Der", "s": 15.8, "e": 16.2, "syllables": ["Der"] },
+    { "w": "Hund", "s": 16.2, "e": 16.8, "syllables": ["Hund"] },
+    { "w": "stoppt.", "s": 16.8, "e": 17.5, "syllables": ["stoppt."] },
+
+    { "w": "Er", "s": 17.9, "e": 18.3, "syllables": ["Er"] },
+    { "w": "ist", "s": 18.3, "e": 18.7, "syllables": ["ist"] },
+    { "w": "müde.", "s": 18.7, "e": 19.5, "syllables": ["mü", "de."] }
+  ]
+}

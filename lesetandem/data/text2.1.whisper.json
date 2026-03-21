@@ -1,0 +1,377 @@
+{
+  "title": "Der Hund im Wald",
+  "audioSrc": "audio/text2.1.mp3",
+  "words": [
+    {
+      "w": "Der",
+      "s": 0.0,
+      "e": 0.74,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Hund",
+      "s": 0.74,
+      "e": 1.16,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "im",
+      "s": 1.16,
+      "e": 1.9,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Wald",
+      "s": 1.9,
+      "e": 2.54,
+      "syllables": [
+        "Wald"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Der",
+      "s": 3.88,
+      "e": 4.1,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 4.1,
+      "e": 4.56,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 4.56,
+      "e": 5.24,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 5.24,
+      "e": 5.98,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Wald.",
+      "s": 5.98,
+      "e": 6.36,
+      "syllables": [
+        "Wald."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 7.66,
+      "e": 7.68,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rennt",
+      "s": 7.68,
+      "e": 8.2,
+      "syllables": [
+        "rennt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "und",
+      "s": 8.2,
+      "e": 9.06,
+      "syllables": [
+        "und"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "er",
+      "s": 9.06,
+      "e": 9.88,
+      "syllables": [
+        "er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "spielt.",
+      "s": 9.88,
+      "e": 10.34,
+      "syllables": [
+        "spielt."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 11.7,
+      "e": 11.94,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 11.94,
+      "e": 12.4,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sieht",
+      "s": 12.4,
+      "e": 13.24,
+      "syllables": [
+        "sieht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 13.24,
+      "e": 14.14,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Tier.",
+      "s": 14.14,
+      "e": 14.56,
+      "syllables": [
+        "Tier."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Es",
+      "s": 15.84,
+      "e": 16.0,
+      "syllables": [
+        "Es"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 16.0,
+      "e": 16.52,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 16.52,
+      "e": 17.62,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Reh.",
+      "s": 17.62,
+      "e": 17.68,
+      "syllables": [
+        "Reh."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 17.68,
+      "e": 19.32,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 19.32,
+      "e": 19.8,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rennt",
+      "s": 19.8,
+      "e": 20.7,
+      "syllables": [
+        "rennt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "los.",
+      "s": 20.7,
+      "e": 21.74,
+      "syllables": [
+        "los."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 22.84,
+      "e": 23.16,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Reh",
+      "s": 23.16,
+      "e": 24.04,
+      "syllables": [
+        "Reh"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rennt",
+      "s": 24.04,
+      "e": 24.7,
+      "syllables": [
+        "rennt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "weg.",
+      "s": 24.7,
+      "e": 25.38,
+      "syllables": [
+        "weg."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 26.78,
+      "e": 27.06,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 27.06,
+      "e": 27.52,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "stoppt.",
+      "s": 27.52,
+      "e": 28.52,
+      "syllables": [
+        "stoppt."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 29.3,
+      "e": 29.72,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 29.72,
+      "e": 30.64,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "müde.",
+      "s": 30.64,
+      "e": 31.2,
+      "syllables": [
+        "mü",
+        "de."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

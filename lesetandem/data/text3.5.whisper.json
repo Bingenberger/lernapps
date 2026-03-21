@@ -1,0 +1,490 @@
+{
+  "title": "Der Hund im Park",
+  "audioSrc": "audio/text3.5.mp3",
+  "words": [
+    {
+      "w": "Der",
+      "s": 0.0,
+      "e": 0.88,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Hund",
+      "s": 0.88,
+      "e": 1.32,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "im",
+      "s": 1.32,
+      "e": 1.92,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Park",
+      "s": 1.92,
+      "e": 2.76,
+      "syllables": [
+        "Park"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Der",
+      "s": 4.32,
+      "e": 4.32,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 4.32,
+      "e": 4.84,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 4.84,
+      "e": 5.64,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 5.64,
+      "e": 6.5,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Park.",
+      "s": 6.5,
+      "e": 7.0,
+      "syllables": [
+        "Park."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 8.06,
+      "e": 8.32,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schnüffelt",
+      "s": 8.32,
+      "e": 9.2,
+      "syllables": [
+        "schnüf",
+        "felt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 9.2,
+      "e": 10.02,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Gras.",
+      "s": 10.02,
+      "e": 10.6,
+      "syllables": [
+        "Gras."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 11.68,
+      "e": 12.04,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sieht",
+      "s": 12.04,
+      "e": 12.7,
+      "syllables": [
+        "sieht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "er",
+      "s": 12.7,
+      "e": 13.28,
+      "syllables": [
+        "er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "einen",
+      "s": 13.28,
+      "e": 14.3,
+      "syllables": [
+        "einen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball.",
+      "s": 14.3,
+      "e": 14.7,
+      "syllables": [
+        "Ball."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 15.98,
+      "e": 16.42,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball",
+      "s": 16.42,
+      "e": 16.9,
+      "syllables": [
+        "Ball"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rollt",
+      "s": 16.9,
+      "e": 18.08,
+      "syllables": [
+        "rollt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "weg.",
+      "s": 18.08,
+      "e": 18.42,
+      "syllables": [
+        "weg."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 19.54,
+      "e": 19.88,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 19.88,
+      "e": 20.4,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rennt",
+      "s": 20.4,
+      "e": 21.2,
+      "syllables": [
+        "rennt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schnell",
+      "s": 21.2,
+      "e": 22.02,
+      "syllables": [
+        "schnell"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "los.",
+      "s": 22.02,
+      "e": 22.8,
+      "syllables": [
+        "los."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 23.68,
+      "e": 24.12,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "holt",
+      "s": 24.12,
+      "e": 24.84,
+      "syllables": [
+        "holt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "den",
+      "s": 24.84,
+      "e": 25.3,
+      "syllables": [
+        "den"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball",
+      "s": 25.3,
+      "e": 25.7,
+      "syllables": [
+        "Ball"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "zurück.",
+      "s": 25.7,
+      "e": 26.84,
+      "syllables": [
+        "zu",
+        "rück."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sein",
+      "s": 26.84,
+      "e": 28.48,
+      "syllables": [
+        "Sein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Herr",
+      "s": 28.48,
+      "e": 28.94,
+      "syllables": [
+        "Herr"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "freut",
+      "s": 28.94,
+      "e": 29.98,
+      "syllables": [
+        "freut"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sich",
+      "s": 29.98,
+      "e": 30.64,
+      "syllables": [
+        "sich"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sehr.",
+      "s": 30.64,
+      "e": 31.34,
+      "syllables": [
+        "sehr."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 32.4,
+      "e": 32.8,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hund",
+      "s": 32.8,
+      "e": 33.34,
+      "syllables": [
+        "Hund"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "wedelt",
+      "s": 33.34,
+      "e": 34.5,
+      "syllables": [
+        "we",
+        "delt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "mit",
+      "s": 34.5,
+      "e": 35.34,
+      "syllables": [
+        "mit"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "dem",
+      "s": 35.34,
+      "e": 36.18,
+      "syllables": [
+        "dem"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Schwanz.",
+      "s": 36.18,
+      "e": 36.82,
+      "syllables": [
+        "Schwanz."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 37.94,
+      "e": 38.3,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "war",
+      "s": 38.3,
+      "e": 39.06,
+      "syllables": [
+        "war"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 39.06,
+      "e": 39.82,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "gutes",
+      "s": 39.82,
+      "e": 40.44,
+      "syllables": [
+        "gu",
+        "tes"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Spiel.",
+      "s": 40.44,
+      "e": 41.14,
+      "syllables": [
+        "Spiel."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

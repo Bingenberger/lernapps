@@ -182,6 +182,16 @@
   border-color: #6aa6df;
 }
 
+.karaoke-card {
+  border-color: #d6c7e3;
+  background: linear-gradient(180deg, #fffdfa 0%, #f8f2ff 100%);
+}
+
+.karaoke-card .app-emoji {
+  background: #f3ebff;
+  border-color: #8e72b5;
+}
+
 .app-desc {
   margin: 0;
   line-height: 1.4;

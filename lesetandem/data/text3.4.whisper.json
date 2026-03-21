@@ -1,0 +1,438 @@
+{
+  "title": "Der nasse Weg",
+  "audioSrc": "audio/text3.4.mp3",
+  "words": [
+    {
+      "w": "Der",
+      "s": 0.0,
+      "e": 0.62,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "nasse",
+      "s": 0.62,
+      "e": 1.56,
+      "syllables": [
+        "na",
+        "s",
+        "se"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Weg",
+      "s": 1.56,
+      "e": 2.32,
+      "syllables": [
+        "Weg"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Mia",
+      "s": 3.8,
+      "e": 3.8,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "geht",
+      "s": 3.8,
+      "e": 4.56,
+      "syllables": [
+        "geht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "zur",
+      "s": 4.56,
+      "e": 5.44,
+      "syllables": [
+        "zur"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Schule.",
+      "s": 5.44,
+      "e": 5.98,
+      "syllables": [
+        "Schu",
+        "le."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 7.2,
+      "e": 7.34,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Himmel",
+      "s": 7.34,
+      "e": 7.8,
+      "syllables": [
+        "Him",
+        "mel"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 7.8,
+      "e": 8.7,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "grau.",
+      "s": 8.7,
+      "e": 9.28,
+      "syllables": [
+        "grau."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 10.2,
+      "e": 10.64,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fällt",
+      "s": 10.64,
+      "e": 11.1,
+      "syllables": [
+        "fällt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Regen",
+      "s": 11.1,
+      "e": 11.86,
+      "syllables": [
+        "Re",
+        "gen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "vom",
+      "s": 11.86,
+      "e": 12.28,
+      "syllables": [
+        "vom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Himmel.",
+      "s": 12.28,
+      "e": 12.72,
+      "syllables": [
+        "Him",
+        "mel."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 13.76,
+      "e": 14.04,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Tropfen",
+      "s": 14.04,
+      "e": 14.7,
+      "syllables": [
+        "Trop",
+        "fen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sind",
+      "s": 14.7,
+      "e": 15.64,
+      "syllables": [
+        "sind"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kalt.",
+      "s": 15.64,
+      "e": 16.2,
+      "syllables": [
+        "kalt."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 17.44,
+      "e": 17.92,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "zieht",
+      "s": 17.92,
+      "e": 18.6,
+      "syllables": [
+        "zieht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "die",
+      "s": 18.6,
+      "e": 19.16,
+      "syllables": [
+        "die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Kapuze",
+      "s": 19.16,
+      "e": 20.0,
+      "syllables": [
+        "Ka",
+        "pu",
+        "ze"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hoch.",
+      "s": 20.0,
+      "e": 20.66,
+      "syllables": [
+        "hoch."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 21.68,
+      "e": 21.96,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Weg",
+      "s": 21.96,
+      "e": 22.36,
+      "syllables": [
+        "Weg"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "wird",
+      "s": 22.36,
+      "e": 23.2,
+      "syllables": [
+        "wird"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "glatt.",
+      "s": 23.2,
+      "e": 23.74,
+      "syllables": [
+        "glatt."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 25.32,
+      "e": 25.44,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "geht",
+      "s": 25.44,
+      "e": 26.08,
+      "syllables": [
+        "geht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ganz",
+      "s": 26.08,
+      "e": 26.9,
+      "syllables": [
+        "ganz"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "langsam.",
+      "s": 26.9,
+      "e": 27.6,
+      "syllables": [
+        "lang",
+        "sam."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Endlich",
+      "s": 27.6,
+      "e": 29.36,
+      "syllables": [
+        "End",
+        "lich"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 29.36,
+      "e": 30.18,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sie",
+      "s": 30.18,
+      "e": 30.54,
+      "syllables": [
+        "sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "da.",
+      "s": 30.54,
+      "e": 31.04,
+      "syllables": [
+        "da."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 32.06,
+      "e": 32.22,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 32.22,
+      "e": 32.68,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 32.68,
+      "e": 33.26,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "wenig",
+      "s": 33.26,
+      "e": 33.88,
+      "syllables": [
+        "we",
+        "nig"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "nass.",
+      "s": 33.88,
+      "e": 34.38,
+      "syllables": [
+        "nass."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

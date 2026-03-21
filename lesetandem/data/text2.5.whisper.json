@@ -1,0 +1,365 @@
+{
+  "title": "Vor der Schule",
+  "audioSrc": "audio/text2.5.mp3",
+  "words": [
+    {
+      "w": "Vor",
+      "s": 0.0,
+      "e": 0.8,
+      "syllables": [
+        "Vor"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "der",
+      "s": 0.8,
+      "e": 1.7,
+      "syllables": [
+        "der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Schule",
+      "s": 1.7,
+      "e": 2.3,
+      "syllables": [
+        "Schu",
+        "le"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Ben",
+      "s": 2.6,
+      "e": 4.0,
+      "syllables": [
+        "Ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "steht",
+      "s": 4.0,
+      "e": 4.52,
+      "syllables": [
+        "steht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "vor",
+      "s": 4.52,
+      "e": 5.16,
+      "syllables": [
+        "vor"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "der",
+      "s": 5.16,
+      "e": 5.88,
+      "syllables": [
+        "der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Schule.",
+      "s": 5.88,
+      "e": 6.48,
+      "syllables": [
+        "Schu",
+        "le."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 8.04,
+      "e": 8.04,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "wartet",
+      "s": 8.04,
+      "e": 8.48,
+      "syllables": [
+        "war",
+        "tet"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "auf",
+      "s": 8.48,
+      "e": 9.4,
+      "syllables": [
+        "auf"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Mia.",
+      "s": 9.4,
+      "e": 9.9,
+      "syllables": [
+        "Mia."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 11.1,
+      "e": 11.42,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kommt",
+      "s": 11.42,
+      "e": 12.14,
+      "syllables": [
+        "kommt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 12.14,
+      "e": 12.84,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "an.",
+      "s": 12.84,
+      "e": 13.56,
+      "syllables": [
+        "an."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 14.76,
+      "e": 14.9,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "winkt",
+      "s": 14.9,
+      "e": 15.94,
+      "syllables": [
+        "winkt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "und",
+      "s": 15.94,
+      "e": 16.74,
+      "syllables": [
+        "und"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "lacht.",
+      "s": 16.74,
+      "e": 17.22,
+      "syllables": [
+        "lacht."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 18.44,
+      "e": 18.94,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Kinder",
+      "s": 18.94,
+      "e": 19.6,
+      "syllables": [
+        "Kin",
+        "der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "gehen",
+      "s": 19.6,
+      "e": 20.72,
+      "syllables": [
+        "ge",
+        "hen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "rein.",
+      "s": 20.72,
+      "e": 21.46,
+      "syllables": [
+        "rein."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 22.66,
+      "e": 23.12,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "setzen",
+      "s": 23.12,
+      "e": 23.78,
+      "syllables": [
+        "set",
+        "zen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sich",
+      "s": 23.78,
+      "e": 24.84,
+      "syllables": [
+        "sich"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hin.",
+      "s": 24.84,
+      "e": 25.44,
+      "syllables": [
+        "hin."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 25.44,
+      "e": 27.02,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Lehrerin",
+      "s": 27.02,
+      "e": 28.18,
+      "syllables": [
+        "Leh",
+        "re",
+        "rin"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 28.18,
+      "e": 28.92,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "da.",
+      "s": 28.92,
+      "e": 29.86,
+      "syllables": [
+        "da."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 30.48,
+      "e": 30.9,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Tag",
+      "s": 30.9,
+      "e": 31.74,
+      "syllables": [
+        "Tag"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "beginnt.",
+      "s": 31.74,
+      "e": 32.72,
+      "syllables": [
+        "be",
+        "ginnt."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

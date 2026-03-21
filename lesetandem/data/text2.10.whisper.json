@@ -1,0 +1,372 @@
+{
+  "title": "Das Spiel im Hof",
+  "audioSrc": "audio/text2.10.mp3",
+  "words": [
+    {
+      "w": "Das",
+      "s": 0.0,
+      "e": 0.58,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Spiel",
+      "s": 0.58,
+      "e": 1.4,
+      "syllables": [
+        "Spiel"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "im",
+      "s": 1.4,
+      "e": 2.38,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Hof",
+      "s": 2.38,
+      "e": 3.0,
+      "syllables": [
+        "Hof"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Im",
+      "s": 4.0,
+      "e": 4.72,
+      "syllables": [
+        "Im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hof",
+      "s": 4.72,
+      "e": 5.22,
+      "syllables": [
+        "Hof"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sind",
+      "s": 5.22,
+      "e": 5.96,
+      "syllables": [
+        "sind"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "viele",
+      "s": 5.96,
+      "e": 6.58,
+      "syllables": [
+        "vie",
+        "le"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Kinder.",
+      "s": 6.58,
+      "e": 7.18,
+      "syllables": [
+        "Kin",
+        "der."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 8.52,
+      "e": 8.52,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "spielen",
+      "s": 8.52,
+      "e": 9.18,
+      "syllables": [
+        "spie",
+        "len"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "mit",
+      "s": 9.18,
+      "e": 9.92,
+      "syllables": [
+        "mit"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "dem",
+      "s": 9.92,
+      "e": 10.72,
+      "syllables": [
+        "dem"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball.",
+      "s": 10.72,
+      "e": 10.72,
+      "syllables": [
+        "Ball."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Ben",
+      "s": 12.16,
+      "e": 12.58,
+      "syllables": [
+        "Ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schießt",
+      "s": 12.58,
+      "e": 13.4,
+      "syllables": [
+        "schießt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "den",
+      "s": 13.4,
+      "e": 14.04,
+      "syllables": [
+        "den"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball.",
+      "s": 14.04,
+      "e": 14.04,
+      "syllables": [
+        "Ball."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Mia",
+      "s": 16.04,
+      "e": 16.04,
+      "syllables": [
+        "Mia"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 16.04,
+      "e": 16.78,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schnell",
+      "s": 16.78,
+      "e": 17.44,
+      "syllables": [
+        "schnell"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hin.",
+      "s": 17.44,
+      "e": 17.94,
+      "syllables": [
+        "hin."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Sie",
+      "s": 19.22,
+      "e": 19.32,
+      "syllables": [
+        "Sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "stoppt",
+      "s": 19.32,
+      "e": 19.9,
+      "syllables": [
+        "stoppt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "den",
+      "s": 19.9,
+      "e": 20.62,
+      "syllables": [
+        "den"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball.",
+      "s": 20.62,
+      "e": 20.68,
+      "syllables": [
+        "Ball."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 22.28,
+      "e": 22.64,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "passt",
+      "s": 22.64,
+      "e": 23.32,
+      "syllables": [
+        "passt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sie",
+      "s": 23.32,
+      "e": 23.74,
+      "syllables": [
+        "sie"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "zurück.",
+      "s": 23.74,
+      "e": 24.62,
+      "syllables": [
+        "zu",
+        "rück."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Ben",
+      "s": 26.18,
+      "e": 26.6,
+      "syllables": [
+        "Ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schießt",
+      "s": 26.6,
+      "e": 27.74,
+      "syllables": [
+        "schießt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "noch",
+      "s": 27.74,
+      "e": 28.1,
+      "syllables": [
+        "noch"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "mal.",
+      "s": 28.1,
+      "e": 28.44,
+      "syllables": [
+        "mal."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Alle",
+      "s": 28.44,
+      "e": 30.22,
+      "syllables": [
+        "Al",
+        "le"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "lachen.",
+      "s": 30.22,
+      "e": 30.86,
+      "syllables": [
+        "la",
+        "chen."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "title": "Der Frosch im Teich",
+  "audioSrc": "audio/text2.4.mp3",
+  "words": [
+    {
+      "w": "Der",
+      "s": 0.0,
+      "e": 0.56,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Frosch",
+      "s": 0.56,
+      "e": 1.18,
+      "syllables": [
+        "Frosch"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "im",
+      "s": 1.18,
+      "e": 1.64,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Teich",
+      "s": 1.64,
+      "e": 2.4,
+      "syllables": [
+        "Teich"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Im",
+      "s": 3.8,
+      "e": 3.84,
+      "syllables": [
+        "Im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Teich",
+      "s": 3.84,
+      "e": 4.7,
+      "syllables": [
+        "Teich"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sitzt",
+      "s": 4.7,
+      "e": 5.76,
+      "syllables": [
+        "sitzt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 5.76,
+      "e": 6.54,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Frosch.",
+      "s": 6.54,
+      "e": 7.22,
+      "syllables": [
+        "Frosch."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 8.64,
+      "e": 8.86,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Frosch",
+      "s": 8.86,
+      "e": 9.62,
+      "syllables": [
+        "Frosch"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 9.62,
+      "e": 10.42,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "grün.",
+      "s": 10.42,
+      "e": 11.0,
+      "syllables": [
+        "grün."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 12.46,
+      "e": 12.64,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sieht",
+      "s": 12.64,
+      "e": 13.22,
+      "syllables": [
+        "sieht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "eine",
+      "s": 13.22,
+      "e": 14.1,
+      "syllables": [
+        "ei",
+        "ne"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Fliege.",
+      "s": 14.1,
+      "e": 14.8,
+      "syllables": [
+        "Flie",
+        "ge."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 16.32,
+      "e": 16.92,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "springt",
+      "s": 16.92,
+      "e": 17.88,
+      "syllables": [
+        "springt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "er",
+      "s": 17.88,
+      "e": 18.24,
+      "syllables": [
+        "er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "los.",
+      "s": 18.24,
+      "e": 18.82,
+      "syllables": [
+        "los."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 18.82,
+      "e": 20.42,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Fliege",
+      "s": 20.42,
+      "e": 21.28,
+      "syllables": [
+        "Flie",
+        "ge"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fliegt",
+      "s": 21.28,
+      "e": 22.22,
+      "syllables": [
+        "fliegt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "weg.",
+      "s": 22.22,
+      "e": 22.82,
+      "syllables": [
+        "weg."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 24.24,
+      "e": 24.5,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Frosch",
+      "s": 24.5,
+      "e": 25.68,
+      "syllables": [
+        "Frosch"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "landet",
+      "s": 25.68,
+      "e": 26.32,
+      "syllables": [
+        "lan",
+        "det"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 26.32,
+      "e": 26.8,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Wasser.",
+      "s": 26.8,
+      "e": 27.24,
+      "syllables": [
+        "Wa",
+        "s",
+        "ser."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 28.76,
+      "e": 28.98,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Wasser",
+      "s": 28.98,
+      "e": 29.56,
+      "syllables": [
+        "Wa",
+        "s",
+        "ser"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "spritzt",
+      "s": 29.56,
+      "e": 30.66,
+      "syllables": [
+        "spritzt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hoch.",
+      "s": 30.66,
+      "e": 31.3,
+      "syllables": [
+        "hoch."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Platsch!",
+      "s": 32.8,
+      "e": 32.98,
+      "syllables": [
+        "Platsch!"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

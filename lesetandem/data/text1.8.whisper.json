@@ -1,0 +1,288 @@
+{
+  "title": "Die Tür",
+  "audioSrc": "audio/text1.8.mp3",
+  "words": [
+    {
+      "w": "Die",
+      "s": 0.0,
+      "e": 0.98,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Tür",
+      "s": 0.98,
+      "e": 1.72,
+      "syllables": [
+        "Tür"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Die",
+      "s": 3.54,
+      "e": 3.54,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Tür",
+      "s": 3.54,
+      "e": 3.54,
+      "syllables": [
+        "Tür"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 3.54,
+      "e": 4.16,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "zu.",
+      "s": 4.16,
+      "e": 4.8,
+      "syllables": [
+        "zu."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Die",
+      "s": 5.9,
+      "e": 6.3,
+      "syllables": [
+        "Die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Tür",
+      "s": 6.3,
+      "e": 6.76,
+      "syllables": [
+        "Tür"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 6.76,
+      "e": 7.64,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "alt.",
+      "s": 7.64,
+      "e": 8.42,
+      "syllables": [
+        "alt."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Ben",
+      "s": 9.94,
+      "e": 9.96,
+      "syllables": [
+        "Ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "öffnet",
+      "s": 9.96,
+      "e": 11.0,
+      "syllables": [
+        "öff",
+        "net"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "die",
+      "s": 11.0,
+      "e": 11.82,
+      "syllables": [
+        "die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Tür.",
+      "s": 11.82,
+      "e": 12.2,
+      "syllables": [
+        "Tür."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Es",
+      "s": 13.3,
+      "e": 13.66,
+      "syllables": [
+        "Es"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 13.66,
+      "e": 14.42,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ganz",
+      "s": 14.42,
+      "e": 15.5,
+      "syllables": [
+        "ganz"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "still.",
+      "s": 15.5,
+      "e": 15.92,
+      "syllables": [
+        "still."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Ben",
+      "s": 17.28,
+      "e": 17.74,
+      "syllables": [
+        "Ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schaut",
+      "s": 17.74,
+      "e": 18.5,
+      "syllables": [
+        "schaut"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hinein.",
+      "s": 18.5,
+      "e": 19.66,
+      "syllables": [
+        "hin",
+        "ein."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Da",
+      "s": 20.44,
+      "e": 20.86,
+      "syllables": [
+        "Da"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "liegt",
+      "s": 20.86,
+      "e": 21.54,
+      "syllables": [
+        "liegt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 21.54,
+      "e": 22.5,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Ball.",
+      "s": 22.5,
+      "e": 22.92,
+      "syllables": [
+        "Ball."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Ben",
+      "s": 24.26,
+      "e": 24.62,
+      "syllables": [
+        "Ben"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "freut",
+      "s": 24.62,
+      "e": 25.34,
+      "syllables": [
+        "freut"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "sich.",
+      "s": 25.34,
+      "e": 26.1,
+      "syllables": [
+        "sich."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

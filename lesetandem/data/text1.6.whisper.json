@@ -1,0 +1,279 @@
+{
+  "title": "Der Drachen",
+  "audioSrc": "audio/text1.6.mp3",
+  "words": [
+    {
+      "w": "Der",
+      "s": 0.0,
+      "e": 1.0,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Drachen",
+      "s": 1.0,
+      "e": 1.66,
+      "syllables": [
+        "Dra",
+        "chen"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Der",
+      "s": 3.04,
+      "e": 3.5,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Drachen",
+      "s": 3.5,
+      "e": 4.26,
+      "syllables": [
+        "Dra",
+        "chen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 4.26,
+      "e": 5.44,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 5.44,
+      "e": 6.86,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Wind.",
+      "s": 6.86,
+      "e": 7.38,
+      "syllables": [
+        "Wind."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 8.58,
+      "e": 9.1,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fliegt",
+      "s": 9.1,
+      "e": 9.92,
+      "syllables": [
+        "fliegt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hoch.",
+      "s": 9.92,
+      "e": 10.92,
+      "syllables": [
+        "hoch."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 12.44,
+      "e": 12.7,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hält",
+      "s": 12.7,
+      "e": 13.76,
+      "syllables": [
+        "hält"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "die",
+      "s": 13.76,
+      "e": 15.34,
+      "syllables": [
+        "die"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Schnur.",
+      "s": 15.34,
+      "e": 16.02,
+      "syllables": [
+        "Schnur."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 17.74,
+      "e": 18.0,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "läuft",
+      "s": 18.0,
+      "e": 19.22,
+      "syllables": [
+        "läuft"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schnell.",
+      "s": 19.22,
+      "e": 20.32,
+      "syllables": [
+        "schnell."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Der",
+      "s": 21.74,
+      "e": 22.24,
+      "syllables": [
+        "Der"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Drachen",
+      "s": 22.24,
+      "e": 22.96,
+      "syllables": [
+        "Dra",
+        "chen"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "steigt",
+      "s": 22.96,
+      "e": 24.34,
+      "syllables": [
+        "steigt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hoch.",
+      "s": 24.34,
+      "e": 25.32,
+      "syllables": [
+        "hoch."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 25.32,
+      "e": 27.04,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "lacht",
+      "s": 27.04,
+      "e": 28.02,
+      "syllables": [
+        "lacht"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "laut.",
+      "s": 28.02,
+      "e": 29.0,
+      "syllables": [
+        "laut."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 30.22,
+      "e": 30.66,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ist",
+      "s": 30.66,
+      "e": 31.84,
+      "syllables": [
+        "ist"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "toll.",
+      "s": 31.84,
+      "e": 32.26,
+      "syllables": [
+        "toll."
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

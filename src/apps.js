@@ -103,4 +103,17 @@ export const portalApps = [
     grades: ["1", "2", "3"],
     links: [{ label: "App starten", href: "./spiegel/index.html", variant: "primary" }],
   },
+  {
+    id: "lesetandem",
+    title: "Hörbuch-Karaoke",
+    subtitle: "Mitlesen · zuhören · Texte gemeinsam entdecken",
+    description:
+      "Kinder hören einen Text und lesen Satz für Satz mit. Das unterstützt beim genauen Zuhören, flüssigen Lesen und gemeinsamen Sprechen.",
+    emoji: "🎧",
+    themeClass: "karaoke-card",
+    tags: ["Deutsch", "Lesen", "Hörverstehen"],
+    subject: "Deutsch",
+    grades: ["1", "2", "3", "4"],
+    links: [{ label: "App starten", href: "./lesetandem/index.html", variant: "primary" }],
+  },
 ];

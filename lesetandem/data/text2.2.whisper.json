@@ -1,0 +1,326 @@
+{
+  "title": "Tom fährt Rad",
+  "audioSrc": "audio/text2.2.mp3",
+  "words": [
+    {
+      "w": "Tom",
+      "s": 0.0,
+      "e": 0.78,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "fährt",
+      "s": 0.78,
+      "e": 1.8,
+      "syllables": [
+        "fährt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": true
+    },
+    {
+      "w": "Rad",
+      "s": 1.8,
+      "e": 3.02,
+      "syllables": [
+        "Rad"
+      ],
+      "lineBreaksAfter": 2,
+      "isTitle": true
+    },
+    {
+      "w": "Tom",
+      "s": 5.2,
+      "e": 5.62,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "hat",
+      "s": 5.62,
+      "e": 6.62,
+      "syllables": [
+        "hat"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ein",
+      "s": 6.62,
+      "e": 8.1,
+      "syllables": [
+        "ein"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Rad.",
+      "s": 8.1,
+      "e": 8.64,
+      "syllables": [
+        "Rad."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 10.78,
+      "e": 11.24,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fährt",
+      "s": 11.24,
+      "e": 12.32,
+      "syllables": [
+        "fährt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "schnell.",
+      "s": 12.32,
+      "e": 13.44,
+      "syllables": [
+        "schnell."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 15.64,
+      "e": 16.14,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fährt",
+      "s": 16.14,
+      "e": 17.2,
+      "syllables": [
+        "fährt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "im",
+      "s": 17.2,
+      "e": 18.58,
+      "syllables": [
+        "im"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Hof.",
+      "s": 18.58,
+      "e": 19.16,
+      "syllables": [
+        "Hof."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Er",
+      "s": 21.14,
+      "e": 21.42,
+      "syllables": [
+        "Er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "ruft:",
+      "s": 21.42,
+      "e": 21.94,
+      "syllables": [
+        "ruft:"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "„Ich",
+      "s": 23.02,
+      "e": 23.52,
+      "syllables": [
+        "„Ich"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "kann",
+      "s": 23.52,
+      "e": 24.06,
+      "syllables": [
+        "kann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "das!“",
+      "s": 24.06,
+      "e": 24.6,
+      "syllables": [
+        "das!“"
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Dann",
+      "s": 24.6,
+      "e": 26.9,
+      "syllables": [
+        "Dann"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fällt",
+      "s": 26.9,
+      "e": 28.08,
+      "syllables": [
+        "fällt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 28.08,
+      "e": 28.66,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "fast.",
+      "s": 28.66,
+      "e": 29.52,
+      "syllables": [
+        "fast."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Aber",
+      "s": 30.44,
+      "e": 31.52,
+      "syllables": [
+        "Aber"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "er",
+      "s": 31.52,
+      "e": 32.44,
+      "syllables": [
+        "er"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "bleibt",
+      "s": 32.44,
+      "e": 33.26,
+      "syllables": [
+        "bleibt"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "oben.",
+      "s": 33.26,
+      "e": 34.42,
+      "syllables": [
+        "oben."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Tom",
+      "s": 36.32,
+      "e": 36.84,
+      "syllables": [
+        "Tom"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "lacht.",
+      "s": 36.84,
+      "e": 37.82,
+      "syllables": [
+        "lacht."
+      ],
+      "lineBreaksAfter": 1,
+      "isTitle": false
+    },
+    {
+      "w": "Das",
+      "s": 39.48,
+      "e": 39.88,
+      "syllables": [
+        "Das"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "war",
+      "s": 39.88,
+      "e": 40.76,
+      "syllables": [
+        "war"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    },
+    {
+      "w": "gut!",
+      "s": 40.76,
+      "e": 41.7,
+      "syllables": [
+        "gut!"
+      ],
+      "lineBreaksAfter": 0,
+      "isTitle": false
+    }
+  ]
+}

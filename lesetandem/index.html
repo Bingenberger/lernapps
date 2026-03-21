@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hörbuch-Karaoke</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-play" viewBox="0 0 256 256">
+      <path d="M96 64l96 64-96 64z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </symbol>
+    <symbol id="icon-pause" viewBox="0 0 256 256">
+      <path d="M104 64v128M152 64v128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </symbol>
+    <symbol id="icon-arrow-counter-clockwise" viewBox="0 0 256 256">
+      <path d="M80 88V40M80 40H32M80 40a96 96 0 1096 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </symbol>
+    <symbol id="icon-house" viewBox="0 0 256 256">
+      <path d="M40 116l88-68 88 68M72 92v108h112V92" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </symbol>
+    <symbol id="icon-speaker-high" viewBox="0 0 256 256">
+      <path d="M80 96H40v64h40l56 40V56zM184 88a56 56 0 010 80M160 112a24 24 0 010 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </symbol>
+    <symbol id="icon-speaker-low" viewBox="0 0 256 256">
+      <path d="M80 96H40v64h40l56 40V56zM160 112a24 24 0 010 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </symbol>
+    <symbol id="icon-speaker-slash" viewBox="0 0 256 256">
+      <path d="M80 96H40v64h40l56 40V56zM208 48L48 208" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </symbol>
+    <symbol id="icon-life-buoy" viewBox="0 0 256 256">
+      <circle cx="128" cy="128" r="88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      <circle cx="128" cy="128" r="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      <path d="M92 48l20 48M164 48l-20 48M92 208l20-48M164 208l-20-48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </symbol>
+    <symbol id="icon-turtle" viewBox="0 0 256 256">
+      <path d="M52 156h152a20 20 0 0020-20v-8a20 20 0 00-20-20h-8a60 60 0 00-116 0H72a20 20 0 00-20 20zM84 156l-16 24M172 156l16 24M88 104V80M168 104V80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      <circle cx="212" cy="120" r="12" fill="none" stroke="currentColor" stroke-width="16"/>
+    </symbol>
+    <symbol id="icon-rabbit" viewBox="0 0 256 256">
+      <path d="M88 172h84a36 36 0 000-72h-8a44 44 0 10-76 28M84 80c0-28 12-52 28-52 12 0 20 16 20 36 0 24-12 44-28 44M152 84c0-28 12-52 28-52 12 0 20 16 20 36 0 24-12 44-28 44M56 184l-20 20M152 184l24 20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    </symbol>
+    <symbol id="icon-reading-guide" viewBox="0 0 256 256">
+      <path d="M48 72h160M48 128h112M48 184h144" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+      <circle cx="208" cy="128" r="12" fill="currentColor"/>
+    </symbol>
+  </svg>
+  <main class="app-shell">
+    <section id="home-view" class="hero-card home-view" aria-label="Textauswahl">
+      <header class="home-hero">
+        <div class="home-copy">
+          <p class="home-kicker">Hörbuch-Karaoke</p>
+          <h1 class="home-title">Wähle deinen Lesetext</h1>
+          <p class="home-lead">
+            Suche eine Niveaustufe aus und öffne dann einen Text zum Mitlesen,
+            Hören und Silbentraining.
+          </p>
+        </div>
+      </header>
+
+      <section class="library-panel" aria-label="Textbibliothek">
+        <div class="library-panel-header">
+          <div>
+            <p class="section-kicker">Textbibliothek</p>
+            <h2 class="section-title">Niveaustufen</h2>
+          </div>
+          <p class="section-note">Alle Texte stehen jetzt zur Auswahl bereit.</p>
+        </div>
+
+        <div id="level-tabs" class="level-tabs" role="tablist" aria-label="Niveaustufen"></div>
+        <section id="story-grid" class="story-grid" aria-live="polite"></section>
+      </section>
+    </section>
+
+    <section id="reader-view" class="hero-card reader-view is-hidden" aria-label="Vorleseansicht">
+      <div class="toolbar reader-toolbar">
+        <div class="toolbar-group">
+          <button id="home-button" class="control-button icon-button icon-only" type="button" aria-label="Zurück zur Startseite" title="Zurück zur Startseite">
+            <svg class="toolbar-icon" aria-hidden="true"><use href="#icon-house"></use></svg>
+          </button>
+
+          <button id="restart-button" class="control-button icon-button icon-only" type="button" aria-label="Wiedergabe neu starten" title="Wiedergabe neu starten">
+            <svg class="toolbar-icon" aria-hidden="true"><use href="#icon-arrow-counter-clockwise"></use></svg>
+          </button>
+
+          <button id="play-toggle" class="control-button media-button icon-only" type="button" aria-label="Wiedergabe starten" title="Wiedergabe starten">
+            <svg class="toolbar-icon" aria-hidden="true"><use href="#icon-play"></use></svg>
+          </button>
+        </div>
+
+        <div class="toolbar-group toolbar-group-wide">
+          <div class="speed-control" aria-label="Geschwindigkeit">
+            <svg class="speed-icon" aria-hidden="true"><use href="#icon-turtle"></use></svg>
+            <div class="speed-slider-wrap">
+              <input
+                id="speed-slider"
+                type="range"
+                min="0"
+                max="6"
+                step="1"
+                value="3"
+                aria-label="Wiedergabegeschwindigkeit"
+              >
+              <div class="speed-ticks" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <svg class="speed-icon" aria-hidden="true"><use href="#icon-rabbit"></use></svg>
+          </div>
+
+          <div class="volume-control">
+            <button
+              id="volume-toggle"
+              class="control-button icon-button icon-only"
+              type="button"
+              aria-label="Lautstaerke einstellen"
+              title="Lautstaerke einstellen"
+              aria-expanded="false"
+              aria-controls="volume-panel"
+            >
+              <svg class="toolbar-icon" aria-hidden="true"><use href="#icon-speaker-high"></use></svg>
+            </button>
+            <div id="volume-panel" class="volume-panel" hidden>
+              <input
+                id="volume-slider"
+                type="range"
+                min="0"
+                max="100"
+                step="5"
+                value="100"
+                aria-label="Lautstaerke"
+              >
+            </div>
+          </div>
+
+          <div class="field field-toggle">
+            <button
+              id="reading-support-toggle"
+              class="toggle-button icon-only"
+              type="button"
+              aria-label="Leseführung wechseln"
+              title="Leseführung wechseln"
+            >
+              <svg class="toolbar-icon" aria-hidden="true"><use href="#icon-reading-guide"></use></svg>
+            </button>
+          </div>
+
+          <div class="field field-toggle">
+            <button
+              id="syllable-toggle"
+              class="toggle-button icon-only"
+              type="button"
+              role="switch"
+              aria-checked="false"
+              aria-label="Silben-Modus einschalten"
+              title="Silben-Modus"
+            >
+              <svg class="toolbar-icon" aria-hidden="true"><use href="#icon-life-buoy"></use></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <section class="story-stage" aria-live="polite">
+        <div id="story-text" class="story-text"></div>
+        <figure id="story-illustration" class="story-illustration" hidden>
+          <img id="story-image" class="story-image" alt="">
+        </figure>
+      </section>
+
+      <audio id="audio-player" preload="metadata" hidden></audio>
+
+      <p id="status-message" class="status-message" role="status"></p>
+    </section>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
